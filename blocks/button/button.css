@@ -7,7 +7,7 @@
   color: #FFF;
   cursor: pointer;
   display: flex;
-  font-family: 'Railway';
+  font-family: 'Railway', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: 500;
   gap: 10px;
