@@ -11,6 +11,10 @@
   color: #FFF;
 }
 
+.button_type_accordion:active:not(:disabled) {
+  background-color: #0C4BA0;
+}
+
 .button_type_accordion:disabled {
   background-color: #C4C4C4;
   border: none;
