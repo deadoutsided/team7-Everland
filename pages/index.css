@@ -2,3 +2,19 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_secondary.css);
+@import url(../blocks/button/_type/button_type_colorless.css);
+@import url(../blocks/button/_type/button_type_link.css);
+@import url(../blocks/button/_type/button_type_slider.css);
+@import url(../blocks/button/_type/button_type_accordion.css);
+@import url(../blocks/button/_color/button_color_blue.css);
+@import url(../blocks/button/_color/button_color_orange.css);
+@import url(../blocks/button/_color/button_color_green.css);
+@import url(../blocks/button/_color/button_color_purple.css);
+@import url(../blocks/button/_color/button_color_black.css);
+@import url(../blocks/button/__icon/button__icon.css);
+@import url(../blocks/button/__icon/_type/button__icon_type_slider.css);
+@import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
+@import url(../blocks/button/_active/button_active.css);

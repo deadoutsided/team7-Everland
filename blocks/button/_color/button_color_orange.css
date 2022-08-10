@@ -1,0 +1,20 @@
+.button_color_orange {
+  background-color: #E7F0FF;
+  color: #E98509;
+}
+
+.button_color_orange:hover:not(:disabled) {
+  background-color: #E98509;
+  color: #FFF;
+}
+
+.button_color_orange:active:not(:disabled) {
+  background-color: #864A00;
+  color: #FFF;
+}
+
+.button_color_orange:disabled {
+  background-color: #C4C4C4;
+  border: none;
+  color: rgba(38, 38, 38, 0.5);
+}

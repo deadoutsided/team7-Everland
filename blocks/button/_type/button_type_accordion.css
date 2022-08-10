@@ -1,0 +1,18 @@
+.button_type_accordion {
+  background-color: #E7F0FF;
+  border-radius: 20px;
+  color: #0C4BA0;
+  height: 45px;
+  padding: 0;
+  width: 45px;
+}
+
+.button_type_accordion:hover:not(:disabled) {
+  color: #FFF;
+}
+
+.button_type_accordion:disabled {
+  background-color: #C4C4C4;
+  border: none;
+  color: rgba(38, 38, 38, 0.5);
+}

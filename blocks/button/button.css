@@ -1,0 +1,35 @@
+.button {
+  align-items: center;
+  background-color: #0C4BA0;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+  color: #FFF;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Railway';
+  font-size: 20px;
+  font-weight: 500;
+  gap: 10px;
+  height: 48px;
+  justify-content: center;
+  line-height: 120%;
+  margin: 0;
+  padding: 12px 16px;
+  transition: all 0.1s ease-in-out;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #4183DC;
+}
+
+.button:active:not(:disabled) {
+  background-color: #00275C;
+}
+
+.button:disabled {
+  background-color: #F5F5F5;
+  border: 2px solid #C4C4C4;
+  color: rgba(38, 38, 38, 0.5);
+  cursor: default;
+}
