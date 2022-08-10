@@ -1,0 +1,17 @@
+.button_type_colorless {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+}
+
+.button_type_colorless:hover:not(:disabled) {
+  background-color: transparent;
+  border-color: #333;
+  color: #333;
+}
+
+.button_type_colorless:active:not(:disabled) {
+  background-color: #333;
+  border: none;
+  color: #FFF;
+}

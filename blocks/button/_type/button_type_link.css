@@ -1,0 +1,20 @@
+.button_type_link {
+  background-color: #FFF;
+  color: #333;
+}
+
+.button_type_link:hover:not(:disabled) {
+  background-color: #FFF;
+  color: #00275C;
+}
+
+.button_type_link:active:not(:disabled) {
+  background-color: #FFF;
+  color: #0C4BA0;
+}
+
+.button_type_link:disabled {
+  background-color: #FFF;
+  border: none;
+  color: #C4C4C4;
+}
