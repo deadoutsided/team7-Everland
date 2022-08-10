@@ -1,0 +1,9 @@
+.section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px 40px 50px;
+  width: 100%;
+  box-sizing: border-box;
+}
