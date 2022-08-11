@@ -1,0 +1,12 @@
+.soc-proj__column{
+  display: flex;
+  flex-direction: column;
+}
+
+.soc-proj__column:nth-child(2){
+  min-width: 520px;
+  min-height: 564px;
+  background-image: url(../../../images/soc-proj__img_size_m.png), url(../../../images/soc-proj__img_size_s.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, top right;
+}
