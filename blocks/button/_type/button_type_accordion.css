@@ -3,7 +3,7 @@
   border-radius: 20px;
   color: #0C4BA0;
   height: 45px;
-  padding: 0;
+  padding: 14px;
   width: 45px;
 }
 
@@ -17,6 +17,6 @@
 
 .button_type_accordion:disabled {
   background-color: #C4C4C4;
-  border: none;
+  border-color: transparent;
   color: rgba(38, 38, 38, 0.5);
 }

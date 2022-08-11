@@ -1,6 +1,7 @@
 .button_type_secondary {
   background-color: transparent;
   border: 1px solid #0C4BA0;
+  padding: calc(12px - 1px) calc(16px - 1px);
   color: #0C4BA0;
 }
 
@@ -12,6 +13,6 @@
 
 .button_type_secondary:active:not(:disabled) {
   background-color: #00275C;
-  border: none;
+  border-color: transparent;
   color: #FFF;
 }

@@ -1,10 +1,11 @@
 .button_type_slider {
-  padding: 9px;
   height: fit-content;
+  padding: calc(9px - 2px);
 }
 
 .button_type_slider:disabled {
   background-color: #C4C4C4;
-  border: none;
+  border-color: transparent;
   color: rgba(38, 38, 38, 0.5);
+  padding: calc(9px - 2px);
 }
