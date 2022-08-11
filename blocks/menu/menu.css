@@ -1,0 +1,10 @@
+.menu {
+  box-sizing: content-box;
+  display: flex;
+  gap: 96px;
+  max-height: 0;
+  padding: 0px 98px 0px 39px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  width: 100%;
+}

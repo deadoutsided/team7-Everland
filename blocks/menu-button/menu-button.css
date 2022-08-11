@@ -1,0 +1,31 @@
+.menu-button {
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.menu-button::before {
+  background-image: url(../../images/icon-menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
+  height: 25px;
+  width: 20px;
+}
+
+.menu-button::after {
+  color: #333;
+  content: "Меню";
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0em;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+}
