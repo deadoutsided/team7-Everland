@@ -28,3 +28,4 @@
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__links/navigation__links.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/__text/navigation__text.css);
