@@ -1,0 +1,14 @@
+.navigation {
+  padding: 12px 42px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1440px;
+}
+
+@media screen and (max-width:1439px) {
+  .navigation {
+    display: none;
+  }
+}
