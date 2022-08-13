@@ -20,6 +20,7 @@
 @import url(../blocks/section/_background/section_background.css);
 @import url(../blocks/section/__content/section__content.css);
 @import url(../blocks/section/__title/section__title.css);
+
 @import url(../blocks/for-whom/for-whom.css);
 @import url(../blocks/for-whom/__element/for-whom__element.css);
 @import url(../blocks/for-whom/__icon/for-whom__icon.css);
@@ -31,3 +32,10 @@
 @import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_blue.css);
 @import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_orange.css);
 @import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_green.css);
+
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__links/navigation__links.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/__text/navigation__text.css);
+

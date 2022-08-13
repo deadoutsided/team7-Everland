@@ -1,6 +1,7 @@
 .button_type_link {
   background-color: #FFF;
   color: #333;
+  text-decoration: none;
 }
 
 .button_type_link:hover:not(:disabled) {
@@ -15,6 +16,6 @@
 
 .button_type_link:disabled {
   background-color: #FFF;
-  border: none;
+  border-color: transparent;
   color: #C4C4C4;
 }

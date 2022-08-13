@@ -1,6 +1,7 @@
 .button_type_colorless {
   background-color: transparent;
   border: 1px solid #333;
+  padding: calc(12px - 1px) calc(16px -1px);
   color: #333;
 }
 
@@ -12,6 +13,6 @@
 
 .button_type_colorless:active:not(:disabled) {
   background-color: #333;
-  border: none;
+  border-color: transparent;
   color: #FFF;
 }
