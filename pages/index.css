@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section/section.css);
@@ -36,6 +35,18 @@
 @import url(../blocks/form/__subm-btn/__subm-btn.css);
 @import url(../blocks/form/__subm-btn/_place/_supp-btns/form__subm-btn_place_supp-btns.css);
 
+@import url(../blocks/for-whom/for-whom.css);
+@import url(../blocks/for-whom/__element/for-whom__element.css);
+@import url(../blocks/for-whom/__icon/for-whom__icon.css);
+@import url(../blocks/for-whom/__container/for-whom__container.css);
+@import url(../blocks/for-whom/__title/for-whom__title.css);
+@import url(../blocks/for-whom/__subtitle/for-whom__subtitle.css);
+@import url(../blocks/for-whom/__text-container/for-whom__text-container.css);
+@import url(../blocks/for-whom/__button-container/for-whom__button-container.css);
+@import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_blue.css);
+@import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_orange.css);
+@import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_green.css);
+
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_secondary.css);
 @import url(../blocks/button/_type/button_type_colorless.css);
@@ -51,6 +62,4 @@
 @import url(../blocks/button/__icon/_type/button__icon_type_slider.css);
 @import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
 @import url(../blocks/button/_active/button_active.css);
-
-
 
