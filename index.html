@@ -2,16 +2,52 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Everland</title>
-  <link rel="stylesheet" href="./pages/index.css">
+    <title>Everland</title>
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
 
-<body>
+<body class="page">
+    <section class="section for-whom">
+        <!--Блок “Для кого”-->
+        <div class="main__container">
+            <h2 class="section__title">Для кого мы работаем</h2>
+            <div class="for-whom__container">
+                <div class="for-whom__element">
+                    <div class="for-whom__icon for-whom__icon_color_blue">
+                        <img src="./images/icon-disabled.svg" alt="Иконка с коляской для инвалида" class="">
+                    </div>
+                    <div class="for-whom__text-container">
+                        <h4 class="for-whom__title">Для людей с&nbsp;инвалидностью</h4>
+                        <p class="for-whom__subtitle">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+                    </div>
+                    <div class="for-whom__button-container"><button type="button" class="button button_color_blue button_type_link">Подробнее</button></div>
+                </div>
 
-  <script src="./scripts/index.js"></script>
+                <div class="for-whom__element">
+                    <div class="for-whom__icon for-whom__icon_color_orange"><img src="./images/icon-briefcase.svg" alt="Иконка с портфелем" class=""></div>
+                    <div class="for-whom__text-container">
+                        <h4 class="for-whom__title">Для работодателей</h4>
+                        <p class="for-whom__subtitle">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров</p>
+                    </div>
+                    <div class="for-whom__button-container"><button type="button" class="button button_color_orange button_type_link">Подробнее</button></div>
+                </div>
+
+                <div class="for-whom__element">
+                    <div class="for-whom__icon for-whom__icon_color_green"><img src="./images/icon-person.svg" alt="Иконка с человечком" class=""></div>
+                    <div class="for-whom__text-container">
+                        <h4 class="for-whom__title">Для КСО-партнеров</h4>
+                        <p class="for-whom__subtitle">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
+                    </div>
+                    <div class="for-whom__button-container"><button type="button" class="button button_color_green button_type_link">Подробнее</button></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>
