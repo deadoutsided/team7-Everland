@@ -1,0 +1,5 @@
+@media screen and (max-width:767px) {
+  .menu__title_active::after {
+    transform: rotate(180deg);
+  }
+}
