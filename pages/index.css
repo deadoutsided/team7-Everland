@@ -24,6 +24,18 @@
 @import url(../blocks/soc-proj/__img/_size/_m/soc-proj__img_size_m.css);
 @import url(../blocks/soc-proj/__img/_size/_s/soc-proj__img_size_s.css);
 
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__radio-cont/form__radio-cont.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__radio-cont/_content/_donation-type/form__radio-cont_content__donation-type.css);
+@import url(../blocks/form/__radio-cont/_content/_paysis/form__radio-cont_content_paysis.css);
+@import url(../blocks/form/__radio-cont/_content/_sum/form__radio-cont_content_sum.css);
+@import url(../blocks/form/__radio-cont/_content/_anoth-sum/form__radio-cont_content_anoth-sum.css);
+@import url(../blocks/form/__radio/form__radio.css);
+@import url(../blocks/form/__subm-btn/__subm-btn.css);
+@import url(../blocks/form/__subm-btn/_place/_supp-btns/form__subm-btn_place_supp-btns.css);
+
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_secondary.css);
 @import url(../blocks/button/_type/button_type_colorless.css);
