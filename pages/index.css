@@ -3,6 +3,28 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/_background/section_background.css);
+@import url(../blocks/section/__content/section__content.css);
+@import url(../blocks/section/__title/section__title.css);
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__links/navigation__links.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/__text/navigation__text.css);
+
+@import url(../blocks/soc-proj/soc-proj.css);
+@import url(../blocks/soc-proj/__column/soc-proj__column.css);
+@import url(../blocks/soc-proj/__title/soc-proj__title.css);
+@import url(../blocks/soc-proj/__highlight/soc-proj__highlight.css);
+@import url(../blocks/soc-proj/__paragraph/soc-proj__paragraph.css);
+@import url(../blocks/soc-proj/__paragraph/_bold/soc-proj__paragraph_bold.css);
+@import url(../blocks/soc-proj/__slider/soc-proj__slider.css);
+@import url(../blocks/soc-proj/__img/soc-proj__img.css);
+@import url(../blocks/soc-proj/__img/_size/_m/soc-proj__img_size_m.css);
+@import url(../blocks/soc-proj/__img/_size/_s/soc-proj__img_size_s.css);
+
+
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__radio-cont/form__radio-cont.css);
 @import url(../blocks/form/__label/form__label.css);
@@ -30,12 +52,5 @@
 @import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
 @import url(../blocks/button/_active/button_active.css);
 
-@import url(../blocks/section/section.css);
-@import url(../blocks/section/_background/section_background.css);
-@import url(../blocks/section/__content/section__content.css);
-@import url(../blocks/section/__title/section__title.css);
 
-@import url(../blocks/navigation/navigation.css);
-@import url(../blocks/navigation/__links/navigation__links.css);
-@import url(../blocks/navigation/__link/navigation__link.css);
-@import url(../blocks/navigation/__text/navigation__text.css);
+
