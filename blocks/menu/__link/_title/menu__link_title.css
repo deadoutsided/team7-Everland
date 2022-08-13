@@ -1,6 +1,19 @@
 .menu__link_title {
   font-size: 34px;
   font-weight: 700;
-  letter-spacing: 0em;
   line-height: 41px;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__link_title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__link_title {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }

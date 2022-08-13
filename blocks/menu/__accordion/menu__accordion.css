@@ -1,5 +1,20 @@
 .menu__accordion {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__accordion{
+    gap:24px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .menu__accordion {
+    max-height: 24px;
+  }
 }

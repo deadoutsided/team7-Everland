@@ -7,5 +7,13 @@
   left: 0;
   margin: 0;
   max-width: 1440px;
+  padding: 0 40px;
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .header__fixed-box {
+    height: 54px;
+    padding: 0 10px;
+  }
 }
