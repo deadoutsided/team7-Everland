@@ -1,0 +1,14 @@
+.form__radio-cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFF;
+  margin: 0 40px 0 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 48px;
+}
+
+.form__radio:checked + .form__radio-cont{
+  border: 1px solid #0C4BA0;
+}

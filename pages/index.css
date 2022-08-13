@@ -1,24 +1,6 @@
 @import url(../vendor/fonts.css);
 @import url(../vendor/normalize.css);
-
 @import url(../blocks/page/page.css);
-
-
-@import url(../blocks/button/button.css);
-@import url(../blocks/button/_type/button_type_secondary.css);
-@import url(../blocks/button/_type/button_type_colorless.css);
-@import url(../blocks/button/_type/button_type_link.css);
-@import url(../blocks/button/_type/button_type_slider.css);
-@import url(../blocks/button/_type/button_type_accordion.css);
-@import url(../blocks/button/_color/button_color_blue.css);
-@import url(../blocks/button/_color/button_color_orange.css);
-@import url(../blocks/button/_color/button_color_green.css);
-@import url(../blocks/button/_color/button_color_purple.css);
-@import url(../blocks/button/_color/button_color_black.css);
-@import url(../blocks/button/__icon/button__icon.css);
-@import url(../blocks/button/__icon/_type/button__icon_type_slider.css);
-@import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
-@import url(../blocks/button/_active/button_active.css);
 
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/_background/section_background.css);
@@ -51,3 +33,55 @@
 @import url(../blocks/navigation/__links/navigation__links.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
 @import url(../blocks/navigation/__text/navigation__text.css);
+
+@import url(../blocks/soc-proj/soc-proj.css);
+@import url(../blocks/soc-proj/__column/soc-proj__column.css);
+@import url(../blocks/soc-proj/__title/soc-proj__title.css);
+@import url(../blocks/soc-proj/__highlight/soc-proj__highlight.css);
+@import url(../blocks/soc-proj/__paragraph/soc-proj__paragraph.css);
+@import url(../blocks/soc-proj/__paragraph/_bold/soc-proj__paragraph_bold.css);
+@import url(../blocks/soc-proj/__slider/soc-proj__slider.css);
+@import url(../blocks/soc-proj/__img/soc-proj__img.css);
+@import url(../blocks/soc-proj/__img/_size/_m/soc-proj__img_size_m.css);
+@import url(../blocks/soc-proj/__img/_size/_s/soc-proj__img_size_s.css);
+
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__radio-cont/form__radio-cont.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__radio-cont/_content/_donation-type/form__radio-cont_content__donation-type.css);
+@import url(../blocks/form/__radio-cont/_content/_paysis/form__radio-cont_content_paysis.css);
+@import url(../blocks/form/__radio-cont/_content/_sum/form__radio-cont_content_sum.css);
+@import url(../blocks/form/__radio-cont/_content/_anoth-sum/form__radio-cont_content_anoth-sum.css);
+@import url(../blocks/form/__radio/form__radio.css);
+@import url(../blocks/form/__subm-btn/__subm-btn.css);
+@import url(../blocks/form/__subm-btn/_place/_supp-btns/form__subm-btn_place_supp-btns.css);
+
+@import url(../blocks/for-whom/for-whom.css);
+@import url(../blocks/for-whom/__element/for-whom__element.css);
+@import url(../blocks/for-whom/__icon/for-whom__icon.css);
+@import url(../blocks/for-whom/__container/for-whom__container.css);
+@import url(../blocks/for-whom/__title/for-whom__title.css);
+@import url(../blocks/for-whom/__subtitle/for-whom__subtitle.css);
+@import url(../blocks/for-whom/__text-container/for-whom__text-container.css);
+@import url(../blocks/for-whom/__button-container/for-whom__button-container.css);
+@import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_blue.css);
+@import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_orange.css);
+@import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_green.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_secondary.css);
+@import url(../blocks/button/_type/button_type_colorless.css);
+@import url(../blocks/button/_type/button_type_link.css);
+@import url(../blocks/button/_type/button_type_slider.css);
+@import url(../blocks/button/_type/button_type_accordion.css);
+@import url(../blocks/button/_color/button_color_blue.css);
+@import url(../blocks/button/_color/button_color_orange.css);
+@import url(../blocks/button/_color/button_color_green.css);
+@import url(../blocks/button/_color/button_color_purple.css);
+@import url(../blocks/button/_color/button_color_black.css);
+@import url(../blocks/button/__icon/button__icon.css);
+@import url(../blocks/button/__icon/_type/button__icon_type_slider.css);
+@import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
+@import url(../blocks/button/_active/button_active.css);
+

@@ -1,0 +1,6 @@
+.form__radio{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
