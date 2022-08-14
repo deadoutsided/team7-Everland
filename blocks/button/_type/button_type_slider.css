@@ -9,3 +9,13 @@
   color: rgba(38, 38, 38, 0.5);
   padding: calc(9px - 2px);
 }
+
+@media screen and (max-width: 1439px) {
+  .button_type_slider {
+    padding: calc(7px - 2px);
+  }
+
+  .button_type_slider:disabled {
+    padding: calc(7px - 2px);
+  }
+}
