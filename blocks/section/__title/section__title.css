@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   text-align: left;
+  white-space: pre;
 }
 
 @media screen and (max-width: 1439px) {

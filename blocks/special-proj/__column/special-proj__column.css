@@ -1,0 +1,11 @@
+.special-proj__column{
+  min-height: 393px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 56px;
+}
+
+.special-proj__column:first-child{
+  min-width: 689px;
+  padding: 0;
+}

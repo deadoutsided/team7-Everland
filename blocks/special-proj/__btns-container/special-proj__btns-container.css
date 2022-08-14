@@ -1,0 +1,6 @@
+.special-proj__btns-container{
+  display: flex;
+  margin: auto 0 0 0;
+  align-items: center;
+  justify-content: space-between;
+}
