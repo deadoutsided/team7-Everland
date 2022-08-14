@@ -1,0 +1,8 @@
+.special-proj{
+  display: flex;
+  flex-direction: row;
+  background-color: #E7F0FF;
+  padding: 30px;
+  border-radius: 30px;
+  align-items: flex-start;
+}
