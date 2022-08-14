@@ -28,6 +28,7 @@
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link/_title/menu__link_title.css);
+@import url(../blocks/menu/__big-link/menu__big-link.css);
 
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__links/navigation__links.css);

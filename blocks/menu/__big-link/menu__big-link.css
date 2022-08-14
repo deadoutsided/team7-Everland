@@ -1,0 +1,9 @@
+.menu__big-link {
+  min-width: 180px;
+}
+
+@media screen and (max-width:1439px) {
+  .menu__big-link {
+    min-width: 134px;
+  }
+}
