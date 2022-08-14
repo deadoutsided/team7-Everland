@@ -89,3 +89,10 @@
 @import url(../blocks/special-proj/__btns-container/special-proj__btns-container.css);
 @import url(../blocks/special-proj/__img/special-proj__img.css);
 @import url(../blocks/special-proj/__slider-cont/special-proj__slider-cont.css);
+
+@import url('../blocks/digits-table/__image/digits-table__image.css');
+@import url('../blocks/digits-table/__list/digits-table__list.css');
+@import url('../blocks/digits-table/__span-accent/digits-table__span-accent.css');
+@import url('../blocks/digits-table/__subtitle/digits-table__subtitle.css');
+@import url('../blocks/digits-table/__title/digits-table__title.css');
+@import url('../blocks/digits-table/digits-table.css');
