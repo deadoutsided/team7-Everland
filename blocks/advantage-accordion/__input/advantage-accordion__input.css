@@ -1,0 +1,11 @@
+.advantage-accordion__input {
+  width: 0;
+  height: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+
+.advantage-accordion__input:checked ~ .advantage-accordion__details {
+  display: flex;
+}

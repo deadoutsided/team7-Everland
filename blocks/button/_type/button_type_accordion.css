@@ -20,3 +20,11 @@
   border-color: transparent;
   color: rgba(38, 38, 38, 0.5);
 }
+
+@media screen and (max-width:1439px) {
+  .button_type_accordion {
+    height: 32px;
+    padding: 10px;
+    width: 32px;
+  }
+}
