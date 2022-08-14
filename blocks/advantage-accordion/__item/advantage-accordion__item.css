@@ -1,0 +1,7 @@
+.advantage-accordion__item {
+  min-width: 670px;
+  border: 2px solid #dadada;
+  border-radius: 30px;
+  padding: 25px 20px 25px 20px;
+  box-sizing: border-box;
+}
