@@ -1,0 +1,9 @@
+.advantage-accordion__content {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin: 0 0 5px;
+}

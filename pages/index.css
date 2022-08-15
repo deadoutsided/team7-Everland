@@ -28,6 +28,7 @@
 @import url(../blocks/menu/__links/menu__links.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__link/_title/menu__link_title.css);
+@import url(../blocks/menu/__big-link/menu__big-link.css);
 
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__links/navigation__links.css);
@@ -90,4 +91,11 @@
 @import url(../blocks/special-proj/__img/special-proj__img.css);
 @import url(../blocks/special-proj/__slider-cont/special-proj__slider-cont.css);
 
-@import url(../blocks/footer/footer.css);
+@import url('../blocks/advantage-accordion/__content/advantage-accordion__content.css');
+@import url('../blocks/advantage-accordion/__details/advantage-accordion__details.css');
+@import url('../blocks/advantage-accordion/__group/advanatge-accordion__group.css');
+@import url('../blocks/advantage-accordion/__input/advantage-accordion__input.css');
+@import url('../blocks/advantage-accordion/__item/__item_top/advantage-accordion__item_top.css');
+@import url('../blocks/advantage-accordion/__item/advantage-accordion__item.css');
+@import url('../blocks/advantage-accordion/__list/advantage-accordion__list.css');
+@import url('../blocks/advantage-accordion/__subtitle/advantage-accordion__subtitle.css');

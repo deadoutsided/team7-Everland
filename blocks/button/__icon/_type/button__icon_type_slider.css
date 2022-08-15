@@ -2,3 +2,10 @@
   height: 17px;
   width: 17px;
 }
+
+@media screen and (max-width:1439px) {
+  .button__icon_type_slider {
+    height: 10px;
+    width: 10px;
+  }
+}

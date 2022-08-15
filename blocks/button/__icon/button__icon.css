@@ -3,3 +3,10 @@
   object-position: center;
   width: 16px;
 }
+
+@media screen and (max-width: 1439px) {
+  .button__icon {
+    height: 13.33px;
+    width: 13.33px;
+  }
+}
