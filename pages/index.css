@@ -83,13 +83,13 @@
 @import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
 @import url(../blocks/button/_active/button_active.css);
 
-@import url(../blocks/special-proj/special-proj.css);
-@import url(../blocks/special-proj/__column/special-proj__column.css);
-@import url(../blocks/special-proj/__paragraph/special-proj__paragraph.css);
-@import url(../blocks/special-proj/__paragraph/_small/special-proj__paragraph_small.css);
-@import url(../blocks/special-proj/__btns-container/special-proj__btns-container.css);
-@import url(../blocks/special-proj/__img/special-proj__img.css);
-@import url(../blocks/special-proj/__slider-cont/special-proj__slider-cont.css);
+@import url('../blocks/special-proj/special-proj.css');
+@import url('../blocks/special-proj/__column/special-proj__column.css');
+@import url('../blocks/special-proj/__paragraph/special-proj__paragraph.css');
+@import url('../blocks/special-proj/__paragraph/_small/special-proj__paragraph_small.css');
+@import url('../blocks/special-proj/__btns-container/special-proj__btns-container.css');
+@import url('../blocks/special-proj/__img/special-proj__img.css');
+@import url('../blocks/special-proj/__slider-cont/special-proj__slider-cont.css');
 
 
 @import url('../blocks/advantage-accordion/__content/advantage-accordion__content.css');
