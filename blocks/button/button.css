@@ -16,6 +16,7 @@
   line-height: 120%;
   margin: 0;
   padding: calc(12px - 2px) calc(16px - 2px);
+  text-decoration: none;
   transition: all 0.1s ease-in-out;
 }
 
@@ -33,4 +34,12 @@
   color: rgba(38, 38, 38, 0.5);
   cursor: default;
   padding: calc(12px - 2px) calc(16px - 2px);
+}
+
+@media screen and (max-width: 1439px) {
+  .button {
+    font-size: 14px;
+    font-weight: 500;
+    height: 44px;
+  }
 }
