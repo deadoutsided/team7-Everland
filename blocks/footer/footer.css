@@ -2,6 +2,21 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  gap: 37px;
   max-width: 1440px;
+  overflow: hidden;
   padding: 80px 40px 84px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer {
+    padding: 50px 40px 54px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .footer {
+    padding: 32px 10px 36px;
+  }
 }

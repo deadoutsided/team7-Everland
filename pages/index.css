@@ -99,3 +99,15 @@
 @import url('../blocks/advantage-accordion/__item/advantage-accordion__item.css');
 @import url('../blocks/advantage-accordion/__list/advantage-accordion__list.css');
 @import url('../blocks/advantage-accordion/__subtitle/advantage-accordion__subtitle.css');
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__inner-resources/footer__inner-resources.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__navigation-box/footer__navigation-box.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__outer-resources/footer__outer-resources.css);
