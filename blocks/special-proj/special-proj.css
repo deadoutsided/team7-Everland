@@ -4,5 +4,5 @@
   background-color: #E7F0FF;
   padding: 30px;
   border-radius: 30px;
-  align-items: flex-start;
+  justify-content: space-between;
 }
