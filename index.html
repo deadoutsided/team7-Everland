@@ -17,12 +17,13 @@
         <div class="header__container">
           <button class="menu-button"></button>
           <div class="header__buttons">
-            <a class="button button_type_secondary" href="#">Платформа</a>
-            <a class="button" href="#">Поддержать</a>
+            <a class="button button_type_secondary menu__big-link" href="#"
+              >Платформа</a
+            >
+            <a class="button menu__big-link" href="#">Поддержать</a>
           </div>
         </div>
       </div>
-
       <div class="menu">
         <div class="menu__accordions">
           <div class="menu__accordion">
@@ -42,7 +43,6 @@
               <li><a class="menu__link" href="#">Годовые отчеты</a></li>
             </ul>
           </div>
-
           <div class="menu__accordion">
             <div class="menu__title">
               <h4 class="menu__link menu__link_title">Людям с инвалидностью</h4>
@@ -91,28 +91,44 @@
     <nav class="navigation">
       <ul class="navigation__links">
         <a class="navigation__link" href="#">
-          <li><h3 class="navigation__text">Для кого</h3></li>
+          <li>
+            <h3 class="navigation__text">Для кого</h3>
+          </li>
         </a>
         <a class="navigation__link" href="#">
-          <li><h3 class="navigation__text">Направления работы</h3></li>
+          <li>
+            <h3 class="navigation__text">Направления работы</h3>
+          </li>
         </a>
         <a class="navigation__link" href="#">
-          <li><h3 class="navigation__text">Преимущества</h3></li>
+          <li>
+            <h3 class="navigation__text">Преимущества</h3>
+          </li>
         </a>
         <a class="navigation__link" href="#">
-          <li><h3 class="navigation__text">Основные цифры</h3></li>
+          <li>
+            <h3 class="navigation__text">Основные цифры</h3>
+          </li>
         </a>
         <a class="navigation__link" href="#">
-          <li><h3 class="navigation__text">Спецпроекты</h3></li>
+          <li>
+            <h3 class="navigation__text">Спецпроекты</h3>
+          </li>
         </a>
         <a class="navigation__link" href="#">
-          <li><h3 class="navigation__text">Истории</h3></li>
+          <li>
+            <h3 class="navigation__text">Истории</h3>
+          </li>
         </a>
         <a class="navigation__link" href="#">
-          <li><h3 class="navigation__text">Агентство</h3></li>
+          <li>
+            <h3 class="navigation__text">Агентство</h3>
+          </li>
         </a>
         <a class="navigation__link" href="#">
-          <li><h3 class="navigation__text">Новости</h3></li>
+          <li>
+            <h3 class="navigation__text">Новости</h3>
+          </li>
         </a>
       </ul>
     </nav>
@@ -230,7 +246,7 @@
 
     <section class="section for-whom">
       <!--Блок “Для кого”-->
-      <div class="main__container">
+      <div class="section__content">
         <h2 class="section__title">Для кого мы работаем</h2>
         <div class="for-whom__container">
           <div class="for-whom__element">
@@ -249,12 +265,24 @@
               </p>
             </div>
             <div class="for-whom__button-container">
-              <button
-                type="button"
-                class="button button_color_blue button_type_link"
-              >
-                Подробнее
-              </button>
+              <a href="#" class="button button_color_blue button_type_link"
+                >Подробнее
+                <svg
+                  class="button__icon"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
 
@@ -274,12 +302,24 @@
               </p>
             </div>
             <div class="for-whom__button-container">
-              <button
-                type="button"
-                class="button button_color_orange button_type_link"
-              >
+              <a href="#" class="button button_color_orange button_type_link">
                 Подробнее
-              </button>
+                <svg
+                  class="button__icon"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
 
@@ -299,12 +339,24 @@
               </p>
             </div>
             <div class="for-whom__button-container">
-              <button
-                type="button"
-                class="button button_color_green button_type_link"
-              >
+              <a href="#" class="button button_color_green button_type_link">
                 Подробнее
-              </button>
+                <svg
+                  class="button__icon"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
@@ -317,7 +369,7 @@
           <p class="special-proj__paragraph special-proj__paragraph_small">
             Наши спецпроекты
           </p>
-          <h2 class="section__title">Фотопроект «Семья как семья»</h2>
+          <h2 class="section__title">Фотопроект «Семья&nbsp;как&nbsp;семья»</h2>
           <p class="special-proj__paragraph">
             Фотопроект Алексея Горшенина включает в себя восемь историй людей и
             семей, где один или оба супруга имеют инвалидность
