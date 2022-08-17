@@ -1,0 +1,7 @@
+.histories__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  max-height: 324px;
+}
+
