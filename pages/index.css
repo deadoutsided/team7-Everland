@@ -89,13 +89,14 @@
 @import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
 @import url(../blocks/button/_active/button_active.css);
 
-@import url(../blocks/special-proj/special-proj.css);
-@import url(../blocks/special-proj/__column/special-proj__column.css);
-@import url(../blocks/special-proj/__paragraph/special-proj__paragraph.css);
-@import url(../blocks/special-proj/__paragraph/_small/special-proj__paragraph_small.css);
-@import url(../blocks/special-proj/__btns-container/special-proj__btns-container.css);
-@import url(../blocks/special-proj/__img/special-proj__img.css);
-@import url(../blocks/special-proj/__slider-cont/special-proj__slider-cont.css);
+@import url('../blocks/special-proj/special-proj.css');
+@import url('../blocks/special-proj/__column/special-proj__column.css');
+@import url('../blocks/special-proj/__paragraph/special-proj__paragraph.css');
+@import url('../blocks/special-proj/__paragraph/_small/special-proj__paragraph_small.css');
+@import url('../blocks/special-proj/__btns-container/special-proj__btns-container.css');
+@import url('../blocks/special-proj/__img/special-proj__img.css');
+@import url('../blocks/special-proj/__slider-cont/special-proj__slider-cont.css');
+
 
 @import url('../blocks/advantage-accordion/__content/advantage-accordion__content.css');
 @import url('../blocks/advantage-accordion/__details/advantage-accordion__details.css');
@@ -105,3 +106,10 @@
 @import url('../blocks/advantage-accordion/__item/advantage-accordion__item.css');
 @import url('../blocks/advantage-accordion/__list/advantage-accordion__list.css');
 @import url('../blocks/advantage-accordion/__subtitle/advantage-accordion__subtitle.css');
+
+@import url('../blocks/digits-table/digits-table.css');
+@import url('../blocks/digits-table/__title/digits-table__title.css');
+@import url('../blocks/digits-table/__subtitle/digits-table__subtitle.css');
+@import url('../blocks/digits-table/__span-accent/digits-table__span-accent.css');
+@import url('../blocks/digits-table/__list/digits-table__list.css');
+@import url('../blocks/digits-table/__image/digits-table__image.css');
