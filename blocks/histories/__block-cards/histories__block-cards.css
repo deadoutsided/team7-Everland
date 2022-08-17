@@ -1,0 +1,5 @@
+.histories__block-cards {
+  display: flex;
+  width: inherit;
+  flex: 1;
+}
