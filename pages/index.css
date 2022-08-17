@@ -99,3 +99,15 @@
 @import url('../blocks/advantage-accordion/__item/advantage-accordion__item.css');
 @import url('../blocks/advantage-accordion/__list/advantage-accordion__list.css');
 @import url('../blocks/advantage-accordion/__subtitle/advantage-accordion__subtitle.css');
+
+@import url('../blocks/news/news.css');
+@import url('../blocks/news/__item/news__item.css');
+@import url('../blocks/news/__picture/news__picture.css');
+@import url('../blocks/news/__wrapper/news__wrapper.css');
+@import url('../blocks/news/__date/news__date.css');
+@import url('../blocks/news/__topic/news__topic.css');
+@import url('../blocks/news/__title/news__title.css');
+@import url('../blocks/news/__text/news__text.css');
+@import url('../blocks/news/_without-picture/news_without-picture.css');
+@import url('../blocks/news/__button/news__button.css');
+@import url('../blocks/news/__header/news__header.css');
