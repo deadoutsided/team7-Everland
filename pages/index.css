@@ -42,6 +42,12 @@
 @import url(../blocks/soc-proj/__paragraph/soc-proj__paragraph.css);
 @import url(../blocks/soc-proj/__paragraph/_bold/soc-proj__paragraph_bold.css);
 @import url(../blocks/soc-proj/__slider/soc-proj__slider.css);
+@import url(../blocks/soc-proj/__column/_slide/_everland/soc-proj__column_slide_everland.css);
+@import url(../blocks/soc-proj/__column/_slide/_cat/soc-proj__column_slide_cat.css);
+@import url(../blocks/soc-proj/__column/_slide/_cats/soc-proj__column_slide_cats.css);
+@import url(../blocks/soc-proj/__column/_slide/_cosm/soc-proj__column_slide_cosm.css);
+@import url(../blocks/soc-proj/__column/_slide/_dogs/soc-proj__column_slide_dogs.css);
+@import url(../blocks/soc-proj/__column/_slide/_socr/soc-proj__column_slide_socr.css);
 
 
 @import url(../blocks/form/form.css);
