@@ -1,0 +1,9 @@
+.digits-table__subtitle {
+  margin: 0;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  font-feature-settings: 'pnum' on, 'lnum' on
+}
