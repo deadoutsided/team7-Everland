@@ -1,0 +1,7 @@
+.histories_margin {
+  margin-bottom: 20px;
+}
+
+.histories__button_margin:last-child {
+  margin-bottom: 0;
+}
