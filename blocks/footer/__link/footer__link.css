@@ -1,0 +1,23 @@
+.footer__link {
+  color: #333;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 120%;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@media screen and (max-width:1439px) {
+  .footer__link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link {
+    font-size: 14px;
+  }
+}
