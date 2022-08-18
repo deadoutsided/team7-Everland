@@ -1,0 +1,9 @@
+.histories__card-link_name {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin: 0px 10px 0px 0px;
+}

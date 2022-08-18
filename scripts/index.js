@@ -7,8 +7,13 @@ const socProjParagraph = document.querySelector(".soc-proj__paragraph");
 const socProjPos = document.querySelector(".soc-proj__paragraph_bold");
 const socProjBgs = document.querySelectorAll(".soc-proj__column")[1];
 const sliderBtns = document.querySelectorAll(".button_type_slider");
+const specProjTitle = document.querySelector(".special-proj__title");
+const specProjPar = document.querySelectorAll(".special-proj__paragraph")[1];
+const specProjImg = document.querySelector(".special-proj__img");
+const specProjBaseImg = "special-proj__img ";
 const socProjBaseBgs = "soc-proj__column ";
 let socProjSliderCounter = 0;
+let specProjSliderCounter = 0;
 
 const socProjFill = [
   {
@@ -55,6 +60,46 @@ const socProjFill = [
   }
 ]
 
+const specProjFill = [
+  {
+    title: "Фотопроект \n«Семья как семья»",
+    paragraph: "Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность",
+    img: "special-proj__img_fotoproj",
+    alt: "Фото фотографа с собакой",
+    src: "./images/special-proj__img.png"
+  },
+  {
+    title: "Ipsum Lorem",
+    paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum lorem. Praesent lobortis odio varius, hendrerit sem a, elementum risus. In hac habitasse platea dictumst. In felis erat, convallis ac turpis eu, tincidunt aliquet erat. Quisque ac euismod lorem.",
+    img: "special-proj__img_cat",
+    alt: "Кошка",
+    src: "./images/imgForExample/exampleCat.jpg"
+  },
+  {
+    title: "Iprem losum",
+    paragraph: "Nulla euismod accumsan magna. Integer consequat tortor eu sodales rhoncus. Aliquam in fermentum ligula, non molestie neque. Aliquam vel erat blandit, volutpat tortor non, vehicula massa. Sed sodales tincidunt vulputate. Integer at congue quam. Fusce.",
+    img: "special-proj__img_socr",
+    alt: "Сократ",
+    src: "./images/imgForExample/exampleSocr3.jpg"
+  },
+  {
+    title: "Nullam quis eros nisl",
+    paragraph: "Sed volutpat felis ultrices vehicula tincidunt. Mauris egestas ultricies luctus. Quisque.",
+    img: "special-proj__img_cosm",
+    alt: "Рисунок космонавта",
+    src: "./images/imgForExample/exampleCosm5.jpg"
+  }
+]
+
+function specProjSlider(num){
+  specProjTitle.textContent = specProjFill[num].title;
+  specProjPar.textContent = specProjFill[num].paragraph;
+  specProjImg.removeAttribute("alt");
+  specProjImg.removeAttribute("src");
+  specProjImg.setAttribute("alt", specProjFill[num].alt);
+  specProjImg.setAttribute("src", specProjFill[num].src);
+}
+
 function socProjSlider(num){
   socProjTitle.textContent = socProjFill[num].title;
   socProjTitle.prepend(socProjHighlight);
@@ -80,6 +125,22 @@ sliderBtns[1].addEventListener('click',() =>{
   }
   console.log(socProjSliderCounter);
   socProjSlider(socProjSliderCounter);
+})
+
+sliderBtns[2].addEventListener('click',() => {
+  specProjSliderCounter--;
+  if(specProjSliderCounter == -1){
+    specProjSliderCounter = 3;
+  }
+  specProjSlider(specProjSliderCounter);
+})
+
+sliderBtns[3].addEventListener('click',() => {
+  specProjSliderCounter++;
+  if(specProjSliderCounter == 4){
+    specProjSliderCounter = 0;
+  }
+  specProjSlider(specProjSliderCounter);
 })
 
 const openMenu = () => {

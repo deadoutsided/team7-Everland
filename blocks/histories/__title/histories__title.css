@@ -1,0 +1,9 @@
+.histories__title {
+  margin: 0;
+  font-family: 'Railway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
