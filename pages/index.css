@@ -49,7 +49,6 @@
 @import url(../blocks/soc-proj/__column/_slide/_dogs/soc-proj__column_slide_dogs.css);
 @import url(../blocks/soc-proj/__column/_slide/_socr/soc-proj__column_slide_socr.css);
 
-
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__radio-cont/form__radio-cont.css);
 @import url(../blocks/form/__label/form__label.css);
@@ -88,28 +87,37 @@
 @import url(../blocks/button/__icon/_type/button__icon_type_slider.css);
 @import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
 @import url(../blocks/button/_active/button_active.css);
+@import url(../blocks/directions/directions.css);
+@import url(../blocks/directions/__container/directions__container.css);
+@import url(../blocks/directions/__element/directions__element.css);
+@import url(../blocks/directions/__text-container/directions__text-container.css);
+@import url(../blocks/directions/__title/directions__title.css);
+@import url(../blocks/directions/__subtitle/directions__subtitle.css);
+@import url(../blocks/directions/__button-container/directions__button-container.css);
+@import url(../blocks/directions/__element/_color/directions__element_color_orange.css);
+@import url(../blocks/directions/__element/_color/directions__element_color_blue.css);
+@import url(../blocks/directions/__element/_color/directions__element_color_green.css);
 
-@import url('../blocks/special-proj/special-proj.css');
-@import url('../blocks/special-proj/__column/special-proj__column.css');
-@import url('../blocks/special-proj/__paragraph/special-proj__paragraph.css');
-@import url('../blocks/special-proj/__paragraph/_small/special-proj__paragraph_small.css');
-@import url('../blocks/special-proj/__btns-container/special-proj__btns-container.css');
-@import url('../blocks/special-proj/__img/special-proj__img.css');
-@import url('../blocks/special-proj/__slider-cont/special-proj__slider-cont.css');
+@import url("../blocks/special-proj/special-proj.css");
+@import url("../blocks/special-proj/__column/special-proj__column.css");
+@import url("../blocks/special-proj/__paragraph/special-proj__paragraph.css");
+@import url("../blocks/special-proj/__paragraph/_small/special-proj__paragraph_small.css");
+@import url("../blocks/special-proj/__btns-container/special-proj__btns-container.css");
+@import url("../blocks/special-proj/__img/special-proj__img.css");
+@import url("../blocks/special-proj/__slider-cont/special-proj__slider-cont.css");
 
+@import url("../blocks/advantage-accordion/__content/advantage-accordion__content.css");
+@import url("../blocks/advantage-accordion/__details/advantage-accordion__details.css");
+@import url("../blocks/advantage-accordion/__group/advanatge-accordion__group.css");
+@import url("../blocks/advantage-accordion/__input/advantage-accordion__input.css");
+@import url("../blocks/advantage-accordion/__item/__item_top/advantage-accordion__item_top.css");
+@import url("../blocks/advantage-accordion/__item/advantage-accordion__item.css");
+@import url("../blocks/advantage-accordion/__list/advantage-accordion__list.css");
+@import url("../blocks/advantage-accordion/__subtitle/advantage-accordion__subtitle.css");
 
-@import url('../blocks/advantage-accordion/__content/advantage-accordion__content.css');
-@import url('../blocks/advantage-accordion/__details/advantage-accordion__details.css');
-@import url('../blocks/advantage-accordion/__group/advanatge-accordion__group.css');
-@import url('../blocks/advantage-accordion/__input/advantage-accordion__input.css');
-@import url('../blocks/advantage-accordion/__item/__item_top/advantage-accordion__item_top.css');
-@import url('../blocks/advantage-accordion/__item/advantage-accordion__item.css');
-@import url('../blocks/advantage-accordion/__list/advantage-accordion__list.css');
-@import url('../blocks/advantage-accordion/__subtitle/advantage-accordion__subtitle.css');
-
-@import url('../blocks/digits-table/digits-table.css');
-@import url('../blocks/digits-table/__title/digits-table__title.css');
-@import url('../blocks/digits-table/__subtitle/digits-table__subtitle.css');
-@import url('../blocks/digits-table/__span-accent/digits-table__span-accent.css');
-@import url('../blocks/digits-table/__list/digits-table__list.css');
-@import url('../blocks/digits-table/__image/digits-table__image.css');
+@import url("../blocks/digits-table/digits-table.css");
+@import url("../blocks/digits-table/__title/digits-table__title.css");
+@import url("../blocks/digits-table/__subtitle/digits-table__subtitle.css");
+@import url("../blocks/digits-table/__span-accent/digits-table__span-accent.css");
+@import url("../blocks/digits-table/__list/digits-table__list.css");
+@import url("../blocks/digits-table/__image/digits-table__image.css");
