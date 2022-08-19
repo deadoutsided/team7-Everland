@@ -49,7 +49,6 @@
 @import url(../blocks/soc-proj/__column/_slide/_dogs/soc-proj__column_slide_dogs.css);
 @import url(../blocks/soc-proj/__column/_slide/_socr/soc-proj__column_slide_socr.css);
 
-
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__radio-cont/form__radio-cont.css);
 @import url(../blocks/form/__label/form__label.css);
@@ -88,6 +87,25 @@
 @import url(../blocks/button/__icon/_type/button__icon_type_slider.css);
 @import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
 @import url(../blocks/button/_active/button_active.css);
+@import url(../blocks/directions/directions.css);
+@import url(../blocks/directions/__container/directions__container.css);
+@import url(../blocks/directions/__element/directions__element.css);
+@import url(../blocks/directions/__text-container/directions__text-container.css);
+@import url(../blocks/directions/__title/directions__title.css);
+@import url(../blocks/directions/__subtitle/directions__subtitle.css);
+@import url(../blocks/directions/__button-container/directions__button-container.css);
+@import url(../blocks/directions/__element/_color/directions__element_color_orange.css);
+@import url(../blocks/directions/__element/_color/directions__element_color_blue.css);
+@import url(../blocks/directions/__element/_color/directions__element_color_green.css);
+
+
+@import url("../blocks/special-proj/special-proj.css");
+@import url("../blocks/special-proj/__column/special-proj__column.css");
+@import url("../blocks/special-proj/__paragraph/special-proj__paragraph.css");
+@import url("../blocks/special-proj/__paragraph/_small/special-proj__paragraph_small.css");
+@import url("../blocks/special-proj/__btns-container/special-proj__btns-container.css");
+@import url("../blocks/special-proj/__img/special-proj__img.css");
+@import url("../blocks/special-proj/__slider-cont/special-proj__slider-cont.css");
 
 @import url('../blocks/special-proj/special-proj.css');
 @import url('../blocks/special-proj/__column/special-proj__column.css');
@@ -101,15 +119,49 @@
 @import url(../blocks/special-proj/__button/special-proj__button.css);
 
 
-@import url('../blocks/advantage-accordion/__content/advantage-accordion__content.css');
-@import url('../blocks/advantage-accordion/__details/advantage-accordion__details.css');
-@import url('../blocks/advantage-accordion/__group/advanatge-accordion__group.css');
-@import url('../blocks/advantage-accordion/__input/advantage-accordion__input.css');
-@import url('../blocks/advantage-accordion/__item/__item_top/advantage-accordion__item_top.css');
-@import url('../blocks/advantage-accordion/__item/advantage-accordion__item.css');
-@import url('../blocks/advantage-accordion/__list/advantage-accordion__list.css');
-@import url('../blocks/advantage-accordion/__subtitle/advantage-accordion__subtitle.css');
 
+@import url("../blocks/advantage-accordion/__content/advantage-accordion__content.css");
+@import url("../blocks/advantage-accordion/__details/advantage-accordion__details.css");
+@import url("../blocks/advantage-accordion/__group/advanatge-accordion__group.css");
+@import url("../blocks/advantage-accordion/__input/advantage-accordion__input.css");
+@import url("../blocks/advantage-accordion/__item/__item_top/advantage-accordion__item_top.css");
+@import url("../blocks/advantage-accordion/__item/advantage-accordion__item.css");
+@import url("../blocks/advantage-accordion/__list/advantage-accordion__list.css");
+@import url("../blocks/advantage-accordion/__subtitle/advantage-accordion__subtitle.css");
+
+
+@import url("../blocks/digits-table/digits-table.css");
+@import url("../blocks/digits-table/__title/digits-table__title.css");
+@import url("../blocks/digits-table/__subtitle/digits-table__subtitle.css");
+@import url("../blocks/digits-table/__span-accent/digits-table__span-accent.css");
+@import url("../blocks/digits-table/__list/digits-table__list.css");
+@import url("../blocks/digits-table/__image/digits-table__image.css");
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__inner-resources/footer__inner-resources.css);
+@import url(../blocks/footer/__about/footer__about.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__navigation-box/footer__navigation-box.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__outer-resources/footer__outer-resources.css);
+@import url(../blocks/footer/__supports/footer__supports.css);
+@import url(../blocks/footer/__support-box/footer__support-box.css);
+@import url(../blocks/footer/__phone-numbers/footer__phone-numbers.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__partner/footer__partner.css);
+@import url(../blocks/footer/__bilain/footer__bilain.css);
+@import url(../blocks/footer/__fond/footer__fond.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__social-box/footer__social-box.css);
+@import url(../blocks/footer/__social-links/footer__social-links.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__practicum/footer__practicum.css);
 @import url('../blocks/digits-table/digits-table.css');
 @import url('../blocks/digits-table/__title/digits-table__title.css');
 @import url('../blocks/digits-table/__subtitle/digits-table__subtitle.css');
@@ -142,3 +194,4 @@
 @import url('../blocks/histories/__card-content/histories__card-content.css');
 @import url('../blocks/histories/__card-link/histories__card-link.css');
 @import url('../blocks/histories/__block-cards/histories__block-cards.css');
+@import url('../blocks/histories/__title/_quote/_quote-padding/histories__title_quote-padding.css');

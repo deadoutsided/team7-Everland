@@ -3,6 +3,18 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 120%;
   font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 1080px) {
+  .histories__button_text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .histories__button_text {
+    font-size: 14px;
+  }
 }

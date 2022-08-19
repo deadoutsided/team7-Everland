@@ -1,0 +1,11 @@
+.footer__partners {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__partners {
+    gap: 21px;
+  }
+}

@@ -2,6 +2,8 @@
   margin-bottom: 20px;
 }
 
-.histories__button_margin:last-child {
-  margin-bottom: 0;
+@media screen and (max-width: 767px) {
+  .histories_margin {
+    margin-bottom: 16px;
+  }
 }

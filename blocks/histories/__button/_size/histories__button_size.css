@@ -2,3 +2,15 @@
   max-width: 229px;
   padding: 10px;
 }
+
+@media screen and (max-width: 1080px) {
+  .histories__button_size {
+    max-width: 195px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .histories__button_size {
+    max-width: 173px;
+  }
+}
