@@ -1,31 +1,10 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
-
-@import url(../blocks/page/page.css);
-
-
-@import url(../blocks/button/button.css);
-@import url(../blocks/button/_type/button_type_secondary.css);
-@import url(../blocks/button/_type/button_type_colorless.css);
-@import url(../blocks/button/_type/button_type_link.css);
-@import url(../blocks/button/_type/button_type_slider.css);
-@import url(../blocks/button/_type/button_type_accordion.css);
-@import url(../blocks/button/_color/button_color_blue.css);
-@import url(../blocks/button/_color/button_color_orange.css);
-@import url(../blocks/button/_color/button_color_green.css);
-@import url(../blocks/button/_color/button_color_purple.css);
-@import url(../blocks/button/_color/button_color_black.css);
-@import url(../blocks/button/__icon/button__icon.css);
-@import url(../blocks/button/__icon/_type/button__icon_type_slider.css);
-@import url(../blocks/button/__icon/_type/button__icon_type_accordion.css);
-@import url(../blocks/button/_active/button_active.css);
-
-@import url(../blocks/section/section.css);
-@import url(../blocks/section/_background/section_background.css);
-@import url(../blocks/section/__content/section__content.css);
-@import url(../blocks/section/__title/section__title.css);
-
-@import url(../blocks/navigation/navigation.css);
-@import url(../blocks/navigation/__links/navigation__links.css);
-@import url(../blocks/navigation/__link/navigation__link.css);
-@import url(../blocks/navigation/__text/navigation__text.css);
+@import url(../styles/normalize.css);
+@import url(../styles/fonts.css);
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__subtitle/projects__subtitle.css);
+@import url(../blocks/projects/__cards/projects__cards.css);
+@import url(../blocks/projects/__cards/__item/projects__cards__item.css);
+@import url(../blocks/projects/__cards/__name/projects__cards__name.css);
+@import url(../blocks/projects/__info/projects__info.css);
+@import url(../blocks/projects/__info/__button/projects__info__button.css);

@@ -1,0 +1,5 @@
+.projects__cards {
+    display: flex;
+    margin: 50px 40px 0;
+    justify-content: center;
+}

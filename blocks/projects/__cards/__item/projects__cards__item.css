@@ -1,0 +1,8 @@
+.projects__cards__item {
+    max-width: 440px;
+    margin-right: 20px;
+}
+
+.projects__cards__item:last-of-type {
+    margin-right: 0;
+}
