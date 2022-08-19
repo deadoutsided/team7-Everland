@@ -3,7 +3,14 @@
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 120%;
   font-feature-settings: 'pnum' on, 'lnum' on;
   margin: 0 0 5px;
+}
+
+@media screen and (max-width: 1180px) {
+  .advantage-accordion__content {
+    font-size: 14px;
+    margin: 0;
+  }
 }
