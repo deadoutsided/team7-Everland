@@ -1,4 +1,26 @@
 .form__radio-cont_content_sum{
   width: 159px;
-  margin-bottom: 15px;
+}
+
+.form__pos-cont > .form__radio-cont_content_sum{
+  margin-bottom: 12px;
+}
+
+.form_data > .form__radio-cont_content_sum{
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1439px) {
+  .form__radio-cont_content_sum{
+    width: 75px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__radio-cont_content_sum{
+    width: 122px;
+  }
+  .form > .form__radio-cont_content_sum.form__radio-cont_content_sum:nth-of-type(2n){
+    margin: 0 0px 16px 0;
+  }
 }
