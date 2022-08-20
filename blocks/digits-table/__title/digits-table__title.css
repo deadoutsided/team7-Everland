@@ -4,6 +4,18 @@
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
-  line-height: 41px;
+  line-height: 120%;
   font-feature-settings: 'pnum' on, 'lnum' on
+}
+
+@media screen and (max-width: 1350px) {
+  .digits-table__title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .digits-table__title {
+    font-size: 18px;
+  }
 }
