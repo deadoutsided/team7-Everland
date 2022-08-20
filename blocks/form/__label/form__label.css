@@ -10,6 +10,9 @@
   width: 100%;
   padding: 12px 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form__radio:checked + .form__label{
