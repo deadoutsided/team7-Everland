@@ -1,0 +1,12 @@
+.support__column{
+  max-width: 488px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.support__column:nth-of-type(1){
+  max-width: 691px;
+  margin: 0 120px 0 0;
+}

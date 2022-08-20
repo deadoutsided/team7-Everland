@@ -4,6 +4,7 @@
 
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/_background/section_background.css);
+@import url(../blocks/section/_background/_light-blue/section__background_light-blue.css);
 @import url(../blocks/section/__content/section__content.css);
 @import url(../blocks/section/__title/section__title.css);
 
@@ -51,6 +52,11 @@
 
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__radio-cont/form__radio-cont.css);
+@import url(../blocks/form/__checkbox/form__checkbox.css);
+@import url(../blocks/form/__label/_checkbox/form__label_checkbox.css);
+@import url(../blocks/form/__checkbox-pseudo/form__checkbox-pseudo.css);
+@import url(../blocks/support/__radio-cont/support__radio-cont.css);
+@import url(../blocks/form/__text-inp/_num/form__text-inp_num.css);
 @import url(../blocks/form/__label/form__label.css);
 @import url(../blocks/form/__radio-cont/_content/_donation-type/form__radio-cont_content__donation-type.css);
 @import url(../blocks/form/__radio-cont/_content/_paysis/form__radio-cont_content_paysis.css);
@@ -136,6 +142,22 @@
 @import url("../blocks/digits-table/__span-accent/digits-table__span-accent.css");
 @import url("../blocks/digits-table/__list/digits-table__list.css");
 @import url("../blocks/digits-table/__image/digits-table__image.css");
+
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__title/support__title.css);
+@import url(../blocks/support/__paragraph/support__paragraph.css);
+@import url(../blocks/support/__svg/support__svg.css);
+@import url(../blocks/support/__column/support__column.css);
+@import url(../blocks/form/_data/form_data.css);
+@import url(../blocks/form/__text-inp/form__text-inp.css);
+@import url(../blocks/form/__pos-cont/form__pos-cont.css);
+@import url(../blocks/support/__link/support__link.css);
+@import url(../blocks/form/__subm-btn/_place/_support/form__subm-btn_place_support.css);
+@import url(../blocks/support/__don-name/support__don-name.css);
+@import url(../blocks/support/__don-cont/support__don-cont.css);
+@import url(../blocks/support/__moneytime/support__moneytime.css);
+@import url(../blocks/support/__text/support__text.css);
+@import url(../blocks/support/__dots/support__dots.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

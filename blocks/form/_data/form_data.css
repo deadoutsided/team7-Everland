@@ -1,0 +1,8 @@
+.form_data{
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px rgba(42, 48, 56, 0.1);
+  padding: 30px 23px 30px 17px;
+}

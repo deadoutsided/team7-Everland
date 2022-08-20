@@ -1,3 +1,7 @@
 .form__radio-cont_content_donation-type{
   width: 316px;
 }
+
+.form__radio-cont_content_donation-type:first-of-type{
+  margin: 0 20px 0 0;
+}
