@@ -4,3 +4,17 @@
   padding: 58px 54px 58px 30px;
   display: flex;
 }
+
+@media screen and (max-width: 1439px) {
+  .form{
+    padding: 32px 24px 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form{
+    padding: 32px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -8,6 +8,8 @@
 @import url(../blocks/section/__content/section__content.css);
 @import url(../blocks/section/__title/section__title.css);
 
+@import url(../blocks/button/button.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__fixed-box/header__fixed-box.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -50,6 +52,8 @@
 @import url(../blocks/soc-proj/__column/_slide/_dogs/soc-proj__column_slide_dogs.css);
 @import url(../blocks/soc-proj/__column/_slide/_socr/soc-proj__column_slide_socr.css);
 
+@import url(../blocks/support-btns/__subm-btn/support-btns__subm-btn.css);
+
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__radio-cont/form__radio-cont.css);
 @import url(../blocks/form/__checkbox/form__checkbox.css);
@@ -78,7 +82,6 @@
 @import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_orange.css);
 @import url(../blocks/for-whom/__icon/_color/for-whom__icon_color_green.css);
 
-@import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_secondary.css);
 @import url(../blocks/button/_type/button_type_colorless.css);
 @import url(../blocks/button/_type/button_type_link.css);
