@@ -9,7 +9,7 @@
   border: 1px solid #DADADA;
   border-radius: 10px;
   padding: 10px 20px;
-  max-width: 455px;
+  max-width: 415px;
 }
 
 .form__text-inp[type="text"]{
@@ -28,4 +28,24 @@
 
 .form__text-inp::placeholder{
   color: #DADADA;
+}
+
+@media screen and (max-width:1439px) {
+  .form__text-inp[type="text"]{
+    margin: 0 0 16px;
+  }
+  .form__text-inp[type="email"]{
+    margin: 0px 0 24px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .form__text-inp[type="text"]{
+    margin: 0 0 16px;
+    max-width: 218px;
+  }
+  .form__text-inp[type="email"]{
+    margin: 0px 0 24px;
+    max-width: 218px;
+  }
 }

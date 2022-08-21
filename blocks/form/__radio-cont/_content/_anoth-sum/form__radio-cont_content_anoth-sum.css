@@ -6,6 +6,9 @@
   .form__radio-cont_content_anoth-sum{
     width: 135px;
   }
+  .form_data > .form__radio-cont_content_anoth-sum{
+    width: 190px;
+  }
 }
 
 @media screen and (max-width:767px) {

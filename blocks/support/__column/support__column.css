@@ -10,3 +10,10 @@
   max-width: 691px;
   margin: 0 120px 0 0;
 }
+
+@media screen and (max-width:1439px) {
+  .support__column:nth-of-type(1){
+    margin: 0;
+    max-width: 688px;
+  }
+}

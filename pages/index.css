@@ -143,10 +143,13 @@
 @import url(../blocks/support/__title/support__title.css);
 @import url(../blocks/support/__paragraph/support__paragraph.css);
 @import url(../blocks/support/__svg/support__svg.css);
+@import url(../blocks/support/__svg/_arrow/support__svg_arrow.css);
 @import url(../blocks/support/__column/support__column.css);
+@import url(../blocks/support/__checkbox-text/support__checkbox-text.css);
 @import url(../blocks/form/_data/form_data.css);
 @import url(../blocks/form/__text-inp/form__text-inp.css);
 @import url(../blocks/form/__pos-cont/form__pos-cont.css);
+@import url(../blocks/form/__pos-cont/_paysis/form__pos-cont_paysis.css);
 @import url(../blocks/support/__link/support__link.css);
 @import url(../blocks/form/__subm-btn/_place/_support/form__subm-btn_place_support.css);
 @import url(../blocks/support/__don-name/support__don-name.css);
