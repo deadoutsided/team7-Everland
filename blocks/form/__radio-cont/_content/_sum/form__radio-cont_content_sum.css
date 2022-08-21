@@ -14,6 +14,9 @@
   .form__radio-cont_content_sum{
     width: 75px;
   }
+  .form_data > .form__radio-cont_content_sum{
+    width: 190px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -22,5 +25,14 @@
   }
   .form > .form__radio-cont_content_sum.form__radio-cont_content_sum:nth-of-type(2n){
     margin: 0 0px 16px 0;
+  }
+  .form__pos-cont > .form__radio-cont_content_sum{
+    width: 122px;
+  }
+  .form__pos-cont > .form__radio-cont_content_sum:nth-last-of-type(1 + 2n){
+    margin: 0 0 16px 16px;
+  }
+  .form_data > .form__radio-cont_content_sum{
+    width: 260px;
   }
 }

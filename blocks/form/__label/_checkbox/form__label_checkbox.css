@@ -13,3 +13,27 @@
 .form__label_checkbox:first-of-type{
   margin: 0px 0 18px 0;
 }
+
+@media screen and (max-width:1439px) {
+  .form__label_checkbox{
+    font-size: 12px;
+    line-height: 120%;
+    align-items: center;
+    margin: 0 0 24px;
+  }
+  .form__label_checkbox:first-of-type{
+    margin: 0 0 18px;
+  }
+}
+
+@media screen and (max-width:1439px) {
+  .form__label_checkbox{
+    font-size: 12px;
+    line-height: 120%;
+    align-items: center;
+    margin: 0 0 24px;
+  }
+  .form__label_checkbox:first-of-type{
+    margin: 0 0 18px;
+  }
+}
