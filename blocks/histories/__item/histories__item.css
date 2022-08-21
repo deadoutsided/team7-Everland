@@ -2,6 +2,27 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
-  max-height: 324px;
 }
 
+
+@media screen and (max-width: 980px) {
+  .histories__item {
+    max-width: 688px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .histories__item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .histories__item {
+    flex-direction: column;
+    max-width: 298px;
+  }
+  .histories__item:last-child {
+    flex-direction: column-reverse;
+  }
+}

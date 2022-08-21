@@ -3,7 +3,13 @@
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 26px;
+  line-height: 120%;
   font-feature-settings: 'pnum' on, 'lnum' on;
   margin: 0px;
+}
+
+@media screen and (max-width: 1080px) {
+  .histories__card-name {
+    font-size: 16px;
+  }
 }

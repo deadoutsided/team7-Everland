@@ -3,3 +3,17 @@
   width: inherit;
   flex: 1;
 }
+
+@media screen and (max-width: 1080px) {
+  .histories__block-cards {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .histories__block-cards {
+    max-width: 688px;
+    margin-bottom: 40px;
+    flex-direction: column;
+  }
+}
