@@ -2,4 +2,20 @@
   min-width: 78px;
   display: flex;
   justify-content: space-between;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+@media screen and (max-width:1439px) {
+  .special-proj__slider-cont{
+    grid-column-start: -2;
+    min-width: 56px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .special-proj__slider-cont{
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
 }
