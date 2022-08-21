@@ -1,0 +1,22 @@
+.footer__bilain {
+  aspect-ratio: 1/0.53;
+  background-image: url(../../../images/logo-bilain.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100px;
+}
+
+@media screen and (max-width:1439px) {
+  .footer__bilain {
+    aspect-ratio: 56/40;
+    background-image: url(../../../images/logo-bilain-mobile.png);
+    width: 56px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .footer__bilain {
+    width: 47.5px;
+  }
+}

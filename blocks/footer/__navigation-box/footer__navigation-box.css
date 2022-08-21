@@ -1,0 +1,16 @@
+.footer__navigation-box {
+  display: flex;
+  gap: 145px;
+}
+
+@media screen and (max-width:1439px) {
+  .footer__navigation-box {
+    gap: 84px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .footer__navigation-box {
+    gap: 42px;
+  }
+}

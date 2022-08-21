@@ -1,4 +1,21 @@
 .special-proj__img{
   max-width: 555px;
   border-radius: 30px;
+  max-height: 393px;
+}
+
+@media screen and (max-width:1439px) {
+  .special-proj__img{
+    min-height: 284px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .special-proj__img{
+    max-height: 180px;
+    min-height: 150px;
+    max-width: 254px;
+    object-fit: contain;
+  }
 }

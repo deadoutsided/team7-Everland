@@ -1,0 +1,21 @@
+.support__don-cont{
+  display: flex;
+  padding: 0 0 28px;
+  color: #333;
+}
+
+.support__don-cont:nth-of-type(5){
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.support__don-cont:nth-of-type(6){
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.support__don-cont:nth-of-type(7){
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.support__don-cont:nth-of-type(8){
+  color: rgba(0, 0, 0, 0.1);
+}

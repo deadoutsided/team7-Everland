@@ -1,0 +1,20 @@
+.footer__outer-resources {
+  display: flex;
+  gap: 82px;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__outer-resources {
+    gap: 41px;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__outer-resources {
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: flex-start;
+  }
+}

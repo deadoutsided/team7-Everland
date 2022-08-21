@@ -1,0 +1,10 @@
+.soc-proj__column_slide_cat{
+  background-image: url(../../../../../images/imgForExample/exampleCat.jpg);
+  background-size: contain;
+}
+
+@media screen and (max-width:767px) {
+  .soc-proj__column:last-of-type.soc-proj__column_slide_cat{
+    background-position: center;
+  }
+}

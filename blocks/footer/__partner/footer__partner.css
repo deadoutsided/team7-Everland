@@ -1,0 +1,8 @@
+.footer__partner {
+  cursor: pointer;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  text-decoration: none;
+  width: 100px;
+}
