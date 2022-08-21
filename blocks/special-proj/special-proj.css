@@ -1,8 +1,20 @@
 .special-proj{
-  display: flex;
-  flex-direction: row;
-  background-color: #E7F0FF;
-  padding: 30px;
-  border-radius: 30px;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 611px 78px 611px;
+  grid-template-rows: 42px fit-content minmax(129px,226px) 48px;
+  max-height: 453px;
+}
+
+@media screen and (max-width:1439px) {
+  .special-proj{
+    grid-template-columns: 194px 145px 289px;
+    grid-template-rows: 31px minmax(fit-content, 96px) fit-content 81px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .special-proj{
+    grid-template-columns: 130px 122px;
+    grid-template-rows: 24px 220px minmax(min-content, max-content) auto 44px;
+  }
 }
