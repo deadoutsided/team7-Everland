@@ -1,0 +1,10 @@
+.news__item{
+  border: 1px solid #DADADA;
+  border-radius: 30px;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #333333;
+}

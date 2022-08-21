@@ -1,6 +1,16 @@
 const menu = document.querySelector(".menu");
 const menuButton = document.querySelector(".menu-button");
 const menuAccordions = document.querySelectorAll(".menu__accordion");
+const newsItem = document.querySelectorAll(".news__item");
+
+  //Перекрашивание карточки новости в зависимости от наличия картинки в ней
+newsItem.forEach(elem => {
+    newsPic = elem.querySelector(".news__picture");
+    if(!newsPic){
+      elem.classList.add('news_without-picture');
+    }
+  })
+
 const socProjTitle = document.querySelector(".soc-proj__title");
 const socProjHighlight = document.querySelector(".soc-proj__highlight");
 const socProjParagraph = document.querySelector(".soc-proj__paragraph");
