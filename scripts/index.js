@@ -1,6 +1,16 @@
 const menu = document.querySelector(".menu");
 const menuButton = document.querySelector(".menu-button");
 const menuAccordions = document.querySelectorAll(".menu__accordion");
+const newsItem = document.querySelectorAll(".news__item");
+
+  //Перекрашивание карточки новости в зависимости от наличия картинки в ней
+newsItem.forEach(elem => {
+    newsPic = elem.querySelector(".news__picture");
+    if(!newsPic){
+      elem.classList.add('news_without-picture');
+    }
+  })
+
 const socProjTitle = document.querySelector(".soc-proj__title");
 const socProjHighlight = document.querySelector(".soc-proj__highlight");
 const socProjParagraph = document.querySelector(".soc-proj__paragraph");
@@ -70,14 +80,14 @@ const specProjFill = [
   },
   {
     title: "Ipsum Lorem",
-    paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum lorem. Praesent lobortis odio varius, hendrerit sem a, elementum risus. In hac habitasse platea dictumst. In felis erat, convallis ac turpis eu, tincidunt aliquet erat. Quisque ac euismod lorem.",
+    paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae condimentum lorem. Praesent lobortis odio varius, hendrerit sem a, elementum risus. In hac habitasse platea dictumst. In felis erat, convallis ac turpis eu, tincidunt aliquet erat.",
     img: "special-proj__img_cat",
     alt: "Кошка",
     src: "./images/imgForExample/exampleCat.jpg"
   },
   {
     title: "Iprem losum",
-    paragraph: "Nulla euismod accumsan magna. Integer consequat tortor eu sodales rhoncus. Aliquam in fermentum ligula, non molestie neque. Aliquam vel erat blandit, volutpat tortor non, vehicula massa. Sed sodales tincidunt vulputate. Integer at congue quam. Fusce.",
+    paragraph: "Nulla euismod accumsan magna. Integer consequat tortor eu sodales rhoncus. Aliquam in fermentum ligula, non molestie neque. Aliquam vel erat blandit, volutpat tortor non, vehicula massa. Sed sodales tincidunt vulputate.",
     img: "special-proj__img_socr",
     alt: "Сократ",
     src: "./images/imgForExample/exampleSocr3.jpg"

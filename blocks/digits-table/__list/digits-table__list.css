@@ -6,7 +6,20 @@
   column-gap: 20px;
   row-gap: 30px;
   max-width: 670px;
-  max-height: 226px;
   padding: 0;
   margin: 71px 0 71px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .digits-table__list {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .digits-table__list {
+    max-width: 300px;
+    row-gap: 16px;
+    margin-bottom: 24px;
+  }
 }

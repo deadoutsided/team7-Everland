@@ -10,8 +10,19 @@
   width: 100%;
   padding: 12px 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.form__radio:checked + .form__label{
-  border: 1px solid #0C4BA0;
+@media screen and (max-width: 1439px) {
+  .form__label{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .form__label{
+    font-size: 14px;
+  }
 }
