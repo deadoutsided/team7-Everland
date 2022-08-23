@@ -1,0 +1,13 @@
+.special-proj__bg{
+  background-color: #E7F0FF;
+  padding: 30px;
+  border-radius: 30px;
+  display: block;
+}
+
+@media screen and (max-width:767px) {
+  .special-proj__bg{
+    padding: 24px;
+    max-height: fit-content;
+  }
+}
