@@ -15,7 +15,6 @@
 
 @media screen and (max-width: 767px) {
   .directions__subtitle {
-    grid-template-columns: minmax(300px, 1fr);
     font-size: 14px;
   }
 }

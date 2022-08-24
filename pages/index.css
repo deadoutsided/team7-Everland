@@ -107,20 +107,19 @@
 @import url(../blocks/directions/__element/_color/directions__element_color_blue.css);
 @import url(../blocks/directions/__element/_color/directions__element_color_green.css);
 
-
 @import url(../blocks/special-proj/special-proj.css);
 
-@import url('../blocks/news/news.css');
-@import url('../blocks/news/__item/news__item.css');
-@import url('../blocks/news/__picture/news__picture.css');
-@import url('../blocks/news/__wrapper/news__wrapper.css');
-@import url('../blocks/news/__date/news__date.css');
-@import url('../blocks/news/__topic/news__topic.css');
-@import url('../blocks/news/__title/news__title.css');
-@import url('../blocks/news/__text/news__text.css');
-@import url('../blocks/news/_without-picture/news_without-picture.css');
-@import url('../blocks/news/__button/news__button.css');
-@import url('../blocks/news/__header/news__header.css');
+@import url("../blocks/news/news.css");
+@import url("../blocks/news/__item/news__item.css");
+@import url("../blocks/news/__picture/news__picture.css");
+@import url("../blocks/news/__wrapper/news__wrapper.css");
+@import url("../blocks/news/__date/news__date.css");
+@import url("../blocks/news/__topic/news__topic.css");
+@import url("../blocks/news/__title/news__title.css");
+@import url("../blocks/news/__text/news__text.css");
+@import url("../blocks/news/_without-picture/news_without-picture.css");
+@import url("../blocks/news/__button/news__button.css");
+@import url("../blocks/news/__header/news__header.css");
 
 @import url(../blocks/special-proj/__bg/special-proj__bg.css);
 @import url("../blocks/special-proj/__column/special-proj__column.css");
@@ -133,8 +132,6 @@
 @import url(../blocks/special-proj/__link/special-proj__link.css);
 @import url(../blocks/special-proj/__button/special-proj__button.css);
 
-
-
 @import url("../blocks/advantage-accordion/__content/advantage-accordion__content.css");
 @import url("../blocks/advantage-accordion/__details/advantage-accordion__details.css");
 @import url("../blocks/advantage-accordion/__group/advanatge-accordion__group.css");
@@ -143,7 +140,6 @@
 @import url("../blocks/advantage-accordion/__item/advantage-accordion__item.css");
 @import url("../blocks/advantage-accordion/__list/advantage-accordion__list.css");
 @import url("../blocks/advantage-accordion/__subtitle/advantage-accordion__subtitle.css");
-
 
 @import url("../blocks/digits-table/digits-table.css");
 @import url("../blocks/digits-table/__title/digits-table__title.css");
@@ -195,36 +191,36 @@
 @import url(../blocks/footer/__social-link/footer__social-link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__practicum/footer__practicum.css);
-@import url('../blocks/digits-table/digits-table.css');
-@import url('../blocks/digits-table/__title/digits-table__title.css');
-@import url('../blocks/digits-table/__subtitle/digits-table__subtitle.css');
-@import url('../blocks/digits-table/__span-accent/digits-table__span-accent.css');
-@import url('../blocks/digits-table/__list/digits-table__list.css');
-@import url('../blocks/digits-table/__image/digits-table__image.css');
+@import url("../blocks/digits-table/digits-table.css");
+@import url("../blocks/digits-table/__title/digits-table__title.css");
+@import url("../blocks/digits-table/__subtitle/digits-table__subtitle.css");
+@import url("../blocks/digits-table/__span-accent/digits-table__span-accent.css");
+@import url("../blocks/digits-table/__list/digits-table__list.css");
+@import url("../blocks/digits-table/__image/digits-table__image.css");
 
-@import url('../blocks/histories/__button/histories__button.css');
-@import url('../blocks/histories/__section/histories__section.css');
-@import url('../blocks/histories/histories.css');
-@import url('../blocks/histories/__list/histories__list.css');
-@import url('../blocks/histories/__title/histories__title.css');
-@import url('../blocks/histories/__subtitle/histories__subtitle.css');
-@import url('../blocks/histories/__item/histories__item.css');
-@import url('../blocks/histories/__image/histories__image.css');
-@import url('../blocks/histories/__details/histories__details.css');
-@import url('../blocks/histories/__button/_decoration/histories__button_decoration.css');
-@import url('../blocks/histories/_margin/histories_margin.css');
-@import url('../blocks/histories/__button/_size/histories__button_size.css');
-@import url('../blocks/histories/__button/_text/histories__button_text.css');
-@import url('../blocks/histories/__title/_quote/histories__title_quote.css');
-@import url('../blocks/histories/__details/_position/histories__details_position.css');
-@import url('../blocks/histories/__card-name/histories__card-name.css');
-@import url('../blocks/histories/__card-title/histories__card-title.css');
-@import url('../blocks/histories/__card-link/_name/histories__card-link_name.css');
-@import url('../blocks/histories/__card-link/_video/histories__card-link_video.css');
-@import url('../blocks/histories/__card_img/histories__card_img.css');
-@import url('../blocks/histories/__cards/histories__cards.css');
-@import url('../blocks/histories/__card/histories__card.css');
-@import url('../blocks/histories/__card-content/histories__card-content.css');
-@import url('../blocks/histories/__card-link/histories__card-link.css');
-@import url('../blocks/histories/__block-cards/histories__block-cards.css');
-@import url('../blocks/histories/__title/_quote/_quote-padding/histories__title_quote-padding.css');
+@import url("../blocks/histories/__button/histories__button.css");
+@import url("../blocks/histories/__section/histories__section.css");
+@import url("../blocks/histories/histories.css");
+@import url("../blocks/histories/__list/histories__list.css");
+@import url("../blocks/histories/__title/histories__title.css");
+@import url("../blocks/histories/__subtitle/histories__subtitle.css");
+@import url("../blocks/histories/__item/histories__item.css");
+@import url("../blocks/histories/__image/histories__image.css");
+@import url("../blocks/histories/__details/histories__details.css");
+@import url("../blocks/histories/__button/_decoration/histories__button_decoration.css");
+@import url("../blocks/histories/_margin/histories_margin.css");
+@import url("../blocks/histories/__button/_size/histories__button_size.css");
+@import url("../blocks/histories/__button/_text/histories__button_text.css");
+@import url("../blocks/histories/__title/_quote/histories__title_quote.css");
+@import url("../blocks/histories/__details/_position/histories__details_position.css");
+@import url("../blocks/histories/__card-name/histories__card-name.css");
+@import url("../blocks/histories/__card-title/histories__card-title.css");
+@import url("../blocks/histories/__card-link/_name/histories__card-link_name.css");
+@import url("../blocks/histories/__card-link/_video/histories__card-link_video.css");
+@import url("../blocks/histories/__card_img/histories__card_img.css");
+@import url("../blocks/histories/__cards/histories__cards.css");
+@import url("../blocks/histories/__card/histories__card.css");
+@import url("../blocks/histories/__card-content/histories__card-content.css");
+@import url("../blocks/histories/__card-link/histories__card-link.css");
+@import url("../blocks/histories/__block-cards/histories__block-cards.css");
+@import url("../blocks/histories/__title/_quote/_quote-padding/histories__title_quote-padding.css");
