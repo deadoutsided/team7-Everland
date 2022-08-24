@@ -26,41 +26,6 @@ const specProjBaseImg = "special-proj__img ";
 const socProjBaseBgs = "soc-proj__column ";
 let socProjSliderCounter = 0;
 let specProjSliderCounter = 0;
-const suppBtnsSubmBtn = document.querySelector(".support-btns__subm-btn");
-const formData = document.querySelector(".form_data");
-const form = document.querySelector(".form");
-const mon250Top = document.querySelector("#top250");
-const mon500Top = form.querySelector("#top500");
-const mon750Top = form.querySelector("#top750");
-const mon1000Top = form.querySelector("#top1000");
-const monAnthSumTop = form.querySelector("#anotherSumTop");
-const mon250 = formData.querySelector("#b250");
-const mon500 = formData.querySelector("#b500");
-const mon750 = formData.querySelector("#b750");
-const mon1000 = formData.querySelector("#b1000");
-const monAnthSum = formData.querySelector("#anotherSum");
-
-function handleFormSubmit(){
-  if(mon250Top.checked){
-    mon250.toggleAttribute("checked", "checked");
-  } else if(mon500Top.checked){
-    mon500.toggleAttribute("checked", "checked");
-  } else if(mon750Top.checked){
-    mon750.toggleAttribute("checked", "checked");
-  } else if(mon1000Top.checked){
-    mon1000.toggleAttribute("checked", "checked");
-  } else if(monAnthSumTop.checked){
-    monAnthSum.toggleAttribute("checked", "checked");
-  }
-}
-suppBtnsSubmBtn.addEventListener("click", handleFormSubmit);
-
-function handleFormDataSubmit(evt){
-  evt.preventDefault();
-  formData.reset();
-}
-
-formData.addEventListener("submit", handleFormDataSubmit);
 
 const socProjFill = [
   {

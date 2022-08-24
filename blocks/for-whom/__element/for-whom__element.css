@@ -1,17 +1,7 @@
 .for-whom__element {
-  background-color: white;
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
-}
-@media screen and (max-width: 1439px) {
-  .for-whom__element {
-    min-height: 272px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .for-whom__element {
-    min-height: 269px;
-  }
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
