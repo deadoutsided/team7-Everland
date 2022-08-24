@@ -4,3 +4,21 @@
   max-width: 1440px;
   width: 100%;
 }
+
+@media screen and (max-width: 1180px) {
+  .advantage-accordion__list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .advantage-accordion__list {
+    margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .advantage-accordion__list {
+    margin-top: 24px;
+  }
+}

@@ -6,4 +6,15 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1180px) {
+  .advanatge-accordion__group {
+    max-width: 688px;
+  }
+}
 
+@media screen and (max-width: 470px) {
+  .advanatge-accordion__group {
+    max-width: 300px;
+    row-gap: 16px;
+  }
+}
