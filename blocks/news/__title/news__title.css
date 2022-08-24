@@ -5,3 +5,15 @@
   line-height: 120%;
   margin:0;
 }
+
+@media screen and (max-width: 850px){
+  .news__title{
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .news__title{
+    font-size: 18px;
+  }
+}
