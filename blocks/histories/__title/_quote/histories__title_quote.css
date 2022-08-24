@@ -1,0 +1,22 @@
+.histories__title_quote {
+  position: absolute;
+  left: 25px;
+  top: 87px;
+}
+
+@media screen and (max-width: 980px) {
+  .histories__title_quote {
+    left: 32px;
+    top: 0;
+    width: 28px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .histories__title_quote {
+    width: 24px;
+    height: 17px;
+    left: 0;
+  }
+}

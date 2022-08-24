@@ -1,0 +1,21 @@
+.menu__accordions {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: calc(259px + 86px) calc(320px + 31px) 243px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:1439px) {
+  .menu__accordions {
+    grid-template-columns: calc(186px + 50px) calc(217px + 21px) 196px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .menu__accordions {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

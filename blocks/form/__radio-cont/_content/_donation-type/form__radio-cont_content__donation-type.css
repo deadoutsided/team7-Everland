@@ -1,0 +1,22 @@
+.form__radio-cont_content_donation-type{
+  width: 316px;
+}
+
+.form__radio-cont_content_donation-type:first-of-type{
+  margin: 0 20px 0 0;
+}
+
+@media screen and (max-width:1439px) {
+  .form__radio-cont_content_donation-type:first-of-type{
+    margin: 0 16px 0 0;
+  }
+  .form__radio-cont_content_donation-type{
+    width: 306px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .form__radio-cont_content_donation-type{
+    width: 122px;
+  }
+}

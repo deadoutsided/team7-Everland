@@ -1,0 +1,46 @@
+.menu__title {
+  font-family: 'Raleway', 'Arial', sans-serif;
+  letter-spacing: 0em;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #333;
+  align-items: center;
+  display: flex;
+  font-size: 34px;
+  font-weight: 700;
+  justify-content: space-between;
+  line-height: 41px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__title {
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 22px;
+    width: 100%;
+  }
+
+  .menu__title:hover {
+    opacity: 0.8;
+  }
+
+  .menu__title::after {
+    background-image: url(../../../images/icon-shevron.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: 12px;
+    transition: all 0.3s ease-in-out;
+    width: 6.86px;
+  }
+}

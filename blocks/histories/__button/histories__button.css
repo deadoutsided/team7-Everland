@@ -1,0 +1,19 @@
+.histories__button {
+  position: absolute;
+  right: 58px;
+  top: 115px;
+}
+
+@media screen and (max-width: 1440px) {
+  .histories__button {
+    top: 52px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .histories__button {
+    top:initial;
+    right: initial;
+    bottom: 0;
+  }
+}

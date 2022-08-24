@@ -1,0 +1,6 @@
+@media screen and (max-width:767px) {
+  .support__svg_arrow{
+    transform: rotate(90deg);
+    padding: 0;
+  }
+}

@@ -1,0 +1,10 @@
+.support__radio-cont{
+  border: 1px solid #DADADA;
+  margin: 0;
+}
+
+@media screen and (max-width:1439px) {
+  .support__radio-cont.form__radio-cont_content_sum{
+    margin: 0 auto 0 0;
+  }
+}
