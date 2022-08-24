@@ -1,6 +1,6 @@
 .projects__cards__item {
     max-width: 440px;
-    margin-right: 20px;
+    width: 100%;
 }
 
 .projects__cards__item:last-of-type {
@@ -29,7 +29,6 @@
 .projects__cards__item { 
     margin-right: 0;
     max-width: 300px;
-    padding: 0 10px;
     margin-bottom: 30px;
 }
 }
