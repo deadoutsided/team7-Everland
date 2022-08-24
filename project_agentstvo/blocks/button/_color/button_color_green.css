@@ -1,0 +1,20 @@
+.button_color_green {
+  background-color: #E7F0FF;
+  color: #319B17;
+}
+
+.button_color_green:hover:not(:disabled) {
+  background-color: #319B17;
+  color: #FFF;
+}
+
+.button_color_green:active:not(:disabled) {
+  background-color: #0E4900;
+  color: #FFF;
+}
+
+.button_color_green:disabled {
+  background-color: #C4C4C4;
+  border-color: transparent;
+  color: rgba(38, 38, 38, 0.5);
+}
