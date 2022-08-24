@@ -1,17 +1,10 @@
 .for-whom__icon {
-  margin: 30px 0px 0px 30px;
-  padding: 0;
-  width: 64px;
-  height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-}
-@media screen and (max-width: 1439px) {
-  .for-whom__icon {
-    margin: 24px 0px 0px 24px;
-    width: 48px;
-    height: 48px;
-  }
+    margin: 30px 0px 0px 30px;
+    padding: 0;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }

@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>Everland</title>
-<link rel="stylesheet" href="./pages/index.css" />
-</head>
+    <title>Everland</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
 
-<body class="page">
+  <body class="page">
     <header class="header">
-        <div class="header__fixed-box">
-            <a class="header__logo" href="#">
-                <img src="./images/logo.svg" alt="Логотип Everland." />
-            </a>
-            <div class="header__container">
-                <button class="menu-button"></button>
-                <div class="header__buttons">
-                    <a class="button button_type_secondary menu__big-link" href="#">Платформа</a
+      <div class="header__fixed-box">
+        <a class="header__logo" href="#">
+          <img src="./images/logo.svg" alt="Логотип Everland." />
+        </a>
+        <div class="header__container">
+          <button class="menu-button"></button>
+          <div class="header__buttons">
+            <a class="button button_type_secondary menu__big-link" href="#"
+              >Платформа</a
             >
             <a class="button menu__big-link" href="#">Поддержать</a>
-
           </div>
         </div>
       </div>
@@ -126,19 +126,20 @@
       </nav>
     </header>
 
-
     <section class="section">
-        <div class="section__content soc-proj">
-            <div class="soc-proj__column">
-                <h1 class="soc-proj__title">
-                    <span class="soc-proj__highlight">Everland</span> — социальный предпринимательский проект
-                </h1>
-                <p class="soc-proj__paragraph">
-                    Мы работаем с 2016 года по России и СНГ и помогаем людям с инвалидностью устойчиво интегрироваться в открытый рынок труда
-                </p>
-            </div>
-            <div class="soc-proj__slider">
-                <button class="button button_type_slider">
+      <div class="section__content soc-proj">
+        <div class="soc-proj__column">
+          <h1 class="soc-proj__title">
+            <span class="soc-proj__highlight">Everland</span> — социальный
+            предпринимательский проект
+          </h1>
+          <p class="soc-proj__paragraph">
+            Мы работаем с 2016 года по России и СНГ и помогаем людям с
+            инвалидностью устойчиво интегрироваться в открытый рынок труда
+          </p>
+        </div>
+        <div class="soc-proj__slider">
+          <button class="button button_type_slider">
             <svg
               class="button__icon button__icon_type_slider"
               width="16"
@@ -155,8 +156,8 @@
               />
             </svg>
           </button>
-                <p class="soc-proj__paragraph soc-proj__paragraph_bold">1/6</p>
-                <button class="button button_type_slider">
+          <p class="soc-proj__paragraph soc-proj__paragraph_bold">1/6</p>
+          <button class="button button_type_slider">
             <svg
               class="button__icon button__icon_type_slider"
               width="16"
@@ -173,53 +174,53 @@
               />
             </svg>
           </button>
-            </div>
-            <div class="soc-proj__column soc-proj__column_slide_everland"></div>
         </div>
+        <div class="soc-proj__column soc-proj__column_slide_everland"></div>
+      </div>
     </section>
 
-    <div class="section section_block_support-btns">
+    <section class="section">
       <div class="section__content support-btns">
         <form class="form">
           <input
             class="form__radio"
             type="radio"
             name="moneyAmount"
-            id="top250"
+            id="250top"
             value="250"
           />
           <div class="form__radio-cont form__radio-cont_content_sum">
-            <label class="form__label" for="top250">250₽</label>
+            <label class="form__label" for="250top">250₽</label>
           </div>
           <input
             class="form__radio"
             type="radio"
             name="moneyAmount"
-            id="top500"
+            id="500top"
             value="500"
           />
           <div class="form__radio-cont form__radio-cont_content_sum">
-            <label class="form__label" for="top500">500₽</label>
+            <label class="form__label" for="500top">500₽</label>
           </div>
           <input
             class="form__radio"
             type="radio"
             name="moneyAmount"
-            id="top750"
+            id="750top"
             value="750"
           />
           <div class="form__radio-cont form__radio-cont_content_sum">
-            <label class="form__label" for="top750">750₽</label>
+            <label class="form__label" for="750top">750₽</label>
           </div>
           <input
             class="form__radio"
             type="radio"
             name="moneyAmount"
-            id="top1000"
+            id="1000top"
             value="1000"
           />
           <div class="form__radio-cont form__radio-cont_content_sum">
-            <label class="form__label" for="top1000">1000₽</label>
+            <label class="form__label" for="1000top">1000₽</label>
           </div>
           <input
             class="form__radio"
@@ -231,314 +232,391 @@
           <div class="form__radio-cont form__radio-cont_content_anoth-sum">
             <label class="form__label" for="anotherSumTop">Другая сумма</label>
           </div>
-          <a class="button support-btns__subm-btn" href="#formData">Поддержать</a>
+          <button class="button support-btns__subm-btn">Поддержать</button>
         </form>
       </div>
-    </div>
-
-    <section class="section for-whom">
-        <!--Блок “Для кого”-->
-        <div class="section__content">
-            <div class="for-whom__block-container">
-                <h2 class="section__title">Для кого мы работаем</h2>
-                <div class="for-whom__container">
-
-                    <div class="for-whom__element">
-                        <div class="for-whom__icon for-whom__icon_color_blue">
-                            <img src="./images/icon-disabled.svg" alt="Иконка с портфелем" class="" />
-                        </div>
-                        <div class="for-whom__text-container">
-                            <h4 class="for-whom__title">Для людей с&nbsp;инвалидностью</h4>
-                            <p class="for-whom__subtitle">
-                                Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки
-                            </p>
-                        </div>
-                        <div class="for-whom__button-container">
-                            <a href="#" class="button button_color_blue button_type_link">
-                Подробнее
-                <svg
-                  class="button__icon"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </a>
-                        </div>
-                    </div>
-
-                    <div class="for-whom__element">
-                        <div class="for-whom__icon for-whom__icon_color_orange">
-                            <img src="./images/icon-briefcase.svg" alt="Иконка с портфелем" class="" />
-                        </div>
-                        <div class="for-whom__text-container">
-                            <h4 class="for-whom__title">Для работодателей</h4>
-                            <p class="for-whom__subtitle">
-                                Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров
-                            </p>
-                        </div>
-                        <div class="for-whom__button-container">
-                            <a href="#" class="button button_color_orange button_type_link">
-                Подробнее
-                <svg
-                  class="button__icon"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </a>
-                        </div>
-                    </div>
-
-                    <div class="for-whom__element">
-                        <div class="for-whom__icon for-whom__icon_color_green">
-                            <img src="./images/icon-person.svg" alt="Иконка с человечком" class="" />
-                        </div>
-                        <div class="for-whom__text-container">
-                            <h4 class="for-whom__title">Для КСО-партнеров</h4>
-                            <p class="for-whom__subtitle">
-                                Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки
-                            </p>
-                        </div>
-                        <div class="for-whom__button-container">
-                            <a href="#" class="button button_color_green button_type_link">
-                Подробнее
-                <svg
-                  class="button__icon"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-                    fill="currentColor"
-                  />
-                </svg>
-              </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
-    <!--блок Наши направления -->
-    <section class="section directions">
-        <div class="section__content">
-            <h2 class="section__title">Наши направления</h2>
-            <div class="directions__container">
-                <div class="directions__element directions__element_color_orange">
-                    <div class="directions__text-container">
-                        <h4 class="directions__title">
-                            Доступность услуг DisQuestion
-                        </h4>
-                        <p class="directions__subtitle">
-                            Сервисы для бизнеса по повышению доступности услуг маломобильных клиентов - контракты с крупнейшими компаниями в России
-                        </p>
-                    </div>
-                    <div class="directions__button-container">
-                        <a class="button button_type_link" href="#">
-            Подробнее
-            <svg
-            class="button__icon"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-              fill="currentColor"
-            />
-          </svg>
-        </a>
-                    </div>
-                </div>
-                <div class="directions__element directions__element_color_blue">
-                    <div class="directions__text-container">
-                        <h4 class="directions__title">
-                            Трудоустройство
-                        </h4>
-                        <p class="directions__subtitle">
-                            Решение социальной проблемы с использованием предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью
-                        </p>
-                    </div>
-                    <div class="directions__button-container">
-                        <a class="button button_type_link" href="#">
-            Подробнее
-            <svg
-            class="button__icon"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-              fill="currentColor"
-            />
-          </svg>
-        </a>
-                    </div>
-                </div>
-                <div class="directions__element directions__element_color_green">
-                    <div class="directions__text-container">
-                        <h4 class="directions__title">
-                            Биржа проектов и готовые решения
-                        </h4>
-                        <p class="directions__subtitle">
-                            ИТ-система для интеграции в открытый рынок труда людей с инвалидностью в качестве самозанятых и в рамках трудоустройства в другие компании
-                        </p>
-                    </div>
-                    <div class="directions__button-container">
-                        <a class="button button_type_link" href="#">
-            Подробнее
-            <svg
-            class="button__icon"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-              fill="currentColor"
-            />
-          </svg>
-        </a>
-                    </div>
-                </div>
-                <div class="directions__element directions__element_color_blue">
-                    <div class="directions__text-container">
-                        <h4 class="directions__title">
-                            Агентство
-                        </h4>
-                        <p class="directions__subtitle">
-                            Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и другие)
-                        </p>
-                    </div>
-                    <div class="directions__button-container">
-                        <a class="button button_type_link" href="#">
-            Подробнее
-            <svg
-            class="button__icon"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-              fill="currentColor"
-            />
-          </svg>
-        </a>
-                    </div>
-                </div>
-                <div class="directions__element directions__element_color_orange">
-                    <div class="directions__text-container">
-                        <h4 class="directions__title">
-                            Коворкинг
-                        </h4>
-                        <p class="directions__subtitle">
-                            Уникальное пространство, в котором специалисты с инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде
-                        </p>
-                    </div>
-                    <div class="directions__button-container">
-                        <a class="button button_type_link" href="#">
-            Подробнее
-            <svg
-            class="button__icon"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-              fill="currentColor"
-            />
-          </svg>
-        </a>
-                    </div>
-                </div>
-                <div class="directions__element directions__element_color_green">
-                    <div class="directions__text-container">
-                        <h4 class="directions__title">
-                            Для людей с инвалидностью
-                        </h4>
-                        <p class="directions__subtitle">
-                            Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки
-                        </p>
-                    </div>
-                    <div class="directions__button-container">
-                        <a class="button button_type_link" href="#">
-            Подробнее
-            <svg
-            class="button__icon"
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-              fill="currentColor"
-            />
-          </svg>
-        </a>
-                    </div>
-                </div>
-                </div>
+    <section class="section for-whom">
+      <!--Блок “Для кого”-->
+      <div class="section__content">
+        <h2 class="section__title">Для кого мы работаем</h2>
+        <div class="for-whom__container">
+          <div class="for-whom__element">
+            <div class="for-whom__icon for-whom__icon_color_blue">
+              <img
+                src="./images/icon-disabled.svg"
+                alt="Иконка с коляской для инвалида"
+                class=""
+              />
+            </div>
+            <div class="for-whom__text-container">
+              <h4 class="for-whom__title">Для людей с&nbsp;инвалидностью</h4>
+              <p class="for-whom__subtitle">
+                Помогаем найти работу, пройти обучение, предоставляем разные
+                виды поддержки
+              </p>
+            </div>
+            <div class="for-whom__button-container">
+              <a href="#" class="button button_color_blue button_type_link"
+                >Подробнее
+                <svg
+                  class="button__icon"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="for-whom__element">
+            <div class="for-whom__icon for-whom__icon_color_orange">
+              <img
+                src="./images/icon-briefcase.svg"
+                alt="Иконка с портфелем"
+                class=""
+              />
+            </div>
+            <div class="for-whom__text-container">
+              <h4 class="for-whom__title">Для работодателей</h4>
+              <p class="for-whom__subtitle">
+                Помогаем создать устойчивые инклюзивные команды, вовлекаем
+                интеллектуальных волонтеров
+              </p>
+            </div>
+            <div class="for-whom__button-container">
+              <a href="#" class="button button_color_orange button_type_link">
+                Подробнее
+                <svg
+                  class="button__icon"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="for-whom__element">
+            <div class="for-whom__icon for-whom__icon_color_green">
+              <img
+                src="./images/icon-person.svg"
+                alt="Иконка с человечком"
+                class=""
+              />
+            </div>
+            <div class="for-whom__text-container">
+              <h4 class="for-whom__title">Для КСО-партнеров</h4>
+              <p class="for-whom__subtitle">
+                Помогаем найти работу, пройти обучение, предоставляем разные
+                виды поддержки
+              </p>
+            </div>
+            <div class="for-whom__button-container">
+              <a href="#" class="button button_color_green button_type_link">
+                Подробнее
+                <svg
+                  class="button__icon"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+
+<!--блок Наши направления -->
+<section class="section directions">
+  <div class="section__content">
+    <h2 class="section__title">Наши направления</h2>
+    <div class="directions__container">
+      <div class="directions__element directions__element_color_orange">
+        <div class="directions__text-container">
+          <h4 class="directions__title">
+            Доступность услуг DisQuestion
+          </h4>
+          <p class="directions__subtitle">
+            Сервисы для бизнеса по повышению доступности услуг
+            маломобильных клиентов - контракты с крупнейшими компаниями в
+            России
+          </p>
+        </div>
+        <div class="directions__button-container">
+        <a class="button button_type_link" href="#">
+            Подробнее
+            <svg
+            class="button__icon"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="directions__element directions__element_color_blue">
+        <div class="directions__text-container">
+          <h4 class="directions__title">
+            Трудоустройство
+          </h4>
+          <p class="directions__subtitle">
+            Решение социальной проблемы с использованием предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью
+          </p>
+        </div>
+        <div class="directions__button-container">
+        <a class="button button_type_link" href="#">
+            Подробнее
+            <svg
+            class="button__icon"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="directions__element directions__element_color_green">
+        <div class="directions__text-container">
+          <h4 class="directions__title">
+            Биржа проектов
+            и готовые решения
+          </h4>
+          <p class="directions__subtitle">
+            ИТ-система для интеграции в открытый рынок труда людей с инвалидностью  в качестве самозанятых и в рамках трудоустройства в другие компании
+          </p>
+        </div>
+        <div class="directions__button-container">
+        <a class="button button_type_link" href="#">
+            Подробнее
+            <svg
+            class="button__icon"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="directions__element directions__element_color_blue">
+        <div class="directions__text-container">
+          <h4 class="directions__title">
+            Агентство
+          </h4>
+          <p class="directions__subtitle">
+            Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и другие)
+          </p>
+        </div>
+        <div class="directions__button-container">
+        <a class="button button_type_link" href="#">
+            Подробнее
+            <svg
+            class="button__icon"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="directions__element directions__element_color_orange">
+        <div class="directions__text-container">
+          <h4 class="directions__title">
+            Коворкинг
+          </h4>
+          <p class="directions__subtitle">
+            Уникальное пространство, в котором специалисты с инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде
+          </p>
+        </div>
+        <div class="directions__button-container">
+        <a class="button button_type_link" href="#">
+            Подробнее
+            <svg
+            class="button__icon"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        </div>
+      </div>
+      <div class="directions__element directions__element_color_green">
+        <div class="directions__text-container">
+          <h4 class="directions__title">
+            Для людей с инвалидностью
+          </h4>
+          <p class="directions__subtitle">
+            Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки
+          </p>
+        </div>
+        <div class="directions__button-container">
+        <a class="button button_type_link" href="#">
+            Подробнее
+            <svg
+            class="button__icon"
+            width="16"
+            height="16"
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="section__content special-proj__bg">
+        <div class="special-proj">
+          <p class="special-proj__paragraph special-proj__paragraph_small">
+            Наши спецпроекты
+          </p>
+            <h2 class="section__title special-proj__title">Фотопроект
+«Семья&nbsp;как&nbsp;семья»</h2>
+            <p class="special-proj__paragraph">
+              Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+              семей, где один или оба супруга имеют инвалидность
+            </p>
+          <a class ="special-proj__link" href="#"><button class="button button_type_colorless special-proj__button">Посмотреть</button></a>
+          <div class="special-proj__column">
+            <img
+              class="special-proj__img"
+              alt="Фото фотографа с собакой"
+              src="./images/special-proj__img.png"
+            />
+          </div>
+          <div class="special-proj__btns-container">
+            <div class="special-proj__slider-cont">
+              <button class="button button_type_slider button_color_black">
+                <svg
+                  class="button__icon button__icon_type_slider"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M8.5 17L9.99813 15.5019L4.06938 9.5625L17 9.5625L17 7.4375L4.06938 7.4375L9.99813 1.49812L8.5 -7.43094e-07L7.43094e-07 8.5L8.5 17Z"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            <button class="button button_type_slider button_color_black">
+              <svg
+                class="button__icon button__icon_type_slider"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
+                fill="currentColor"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        </div>
+      </div>
     </section>
 
     <section class="section section__content section__background">
-        <h2 class="section__title">Главное в работе</h2>
-        <div class="advantage-accordion advantage-accordion__list">
-            <div class="advanatge-accordion__group">
-                <div class="advantage-accordion__item">
-                    <div class="advantage-accordion__item_top">
-                        <label class="advantage-accordion__subtitle" for="accordion-advantage_1">Заработанные средства</label
+      <h2 class="section__title">Главное в работе</h2>
+      <div class="advantage-accordion advantage-accordion__list">
+        <div class="advanatge-accordion__group">
+          <div class="advantage-accordion__item">
+            <div class="advantage-accordion__item_top">
+              <label
+                class="advantage-accordion__subtitle"
+                for="accordion-advantage_1"
+                >Заработанные средства</label
               >
               <button class="button button_type_accordion">
                 <svg
@@ -798,64 +876,6 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="section__content special-proj__bg">
-          <div class="special-proj">
-              <p class="special-proj__paragraph special-proj__paragraph_small">
-                  Наши спецпроекты
-              </p>
-              <h2 class="section__title special-proj__title">Фотопроект
-«Семья&nbsp;как&nbsp;семья»
-              </h2>
-              <p class="special-proj__paragraph">
-                  Фотопроект Алексея Горшенина включает в себя восемь историй людей и семей, где один или оба супруга имеют инвалидность
-              </p>
-              <a class="button button_type_colorless special-proj__button special-proj__link" href="#">Посмотреть</a>
-              <div class="special-proj__column">
-                  <img class="special-proj__img" alt="Фото фотографа с собакой" src="./images/special-proj__img.png" />
-              </div>
-              <div class="special-proj__btns-container">
-                  <div class="special-proj__slider-cont">
-                      <button class="button button_type_slider button_color_black">
-              <svg
-                class="button__icon button__icon_type_slider"
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M8.5 17L9.99813 15.5019L4.06938 9.5625L17 9.5625L17 7.4375L4.06938 7.4375L9.99813 1.49812L8.5 -7.43094e-07L7.43094e-07 8.5L8.5 17Z"
-                  fill="white"
-                />
-              </svg>
-            </button>
-                      <button class="button button_type_slider button_color_black">
-            <svg
-              class="button__icon button__icon_type_slider"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z"
-              fill="currentColor"
-              />
-            </svg>
-          </button>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </section>
-
     <section class="section section__content histories__section">
       <h2 class="section__title">Истории</h2>
       <a
@@ -1012,8 +1032,8 @@
           </div>
         </div>
       </div>
+    </div>
   </section>
-
   <section class="section projects">
       <div class="projects__wrapper">
         <h2 class="section__title">Лучшие проекты агенства</h2>
@@ -1040,16 +1060,15 @@
       </div>
     </div>
   </section>
-
 <section class="section news">
-  <div class="news__header">
+  <div class='news__header'>
     <h2 class="section__title">Новости</h2>
     <button class="button button_type_secondary news__button">Все новости</button>
   </div>
   <div class="news__wrapper">
     <article class="news__item">
       <p class="news__topic">Тема</p>
-      <img src="../team7-Everland/images/news/news_img_1.jpg" alt="Новогодняя открытка" class="news__picture">
+      <img src="./images/news/news_img_1.jpg" alt="Новогодняя открытка" class="news__picture">
       <h4 class="news__title">Ура! Новое партнерство — с PepsiCo</h4>
       <p class="news__text">Everland совместно с PepsiCo приняли участие в акции «Благотворительность вместо сувениров»</p>
       <p class="news__date">20 сентября 2021</p>
@@ -1064,26 +1083,22 @@
           <p class="news__topic">Тема</p>
           <h4 class="news__title">Тестируем супермаркеты на доступность</h4>
           <p class="news__text">Everland совместно с торговой сетью «Перекресток» провели аудит продуктовых магазинов на доступность для людей с разными видами инвалидности</p>
-          <img src="../team7-Everland/images/news/news_img_2.jpg" alt="Прилавок магазина" class="news__picture">
+          <img src="./images/news/news_img_2.jpg" alt="Прилавок магазина" class="news__picture">
           <p class="news__date">20 сентября 2021</p>
           </article>
     </div>
   </section>
-
-
     <section class="section section__background_light-blue">
-      <div class="section__content">
-        <h2 class="section__title support__title support__title_main">Поддержите нас</h2>
-        <div class="support">
+      <h2 class="section__title">Поддержите нас</h2>
+      <div class="section__content support">
         <div class="support__column">
-          <form class="form form_data" name="supportForm" id="formData">
+          <form class="form form_data" name="supportForm">
             <div class="form__pos-cont">
               <input class="form__radio" type="radio" name="donation-type" id="monthly" value="monthly">
               <div class="form__radio-cont support__radio-cont form__radio-cont_content_donation-type">
                 <label class="form__label" for="monthly">Ежемесячно <svg class="support__svg" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10ZM3.00285 3.54791C2.9797 3.69528 3.10075 3.82002 3.25022 3.82002H3.25075H3.65969C3.79759 3.82002 3.90917 3.71107 3.94391 3.57739C4.06391 3.11791 4.43285 2.83949 4.96391 2.83949C5.57864 2.83949 5.97759 3.21791 5.97759 3.73318C5.97759 4.20318 5.78443 4.46791 5.24233 4.80055C4.62759 5.17476 4.35391 5.58528 4.37654 6.22791L4.37812 6.33318C4.37881 6.40251 4.40684 6.46877 4.45612 6.51756C4.50539 6.56634 4.57193 6.59371 4.64127 6.5937H5.04654C5.11633 6.5937 5.18327 6.56598 5.23262 6.51663C5.28197 6.46727 5.3097 6.40034 5.3097 6.33054V6.31476C5.3097 5.84528 5.47496 5.6037 6.05391 5.25686C6.64601 4.89633 6.99601 4.39949 6.99601 3.69212C6.99601 2.71581 6.19759 2.00002 5.01338 2.00002C3.82969 2.00002 3.14759 2.65265 3.00285 3.54791ZM5.41654 7.74212C5.41654 8.06633 5.16759 8.31581 4.84022 8.31581C4.52127 8.31581 4.26812 8.06633 4.26812 7.7416C4.26812 7.41686 4.52127 7.16739 4.84022 7.16739C5.16759 7.16739 5.41654 7.41686 5.41654 7.74212Z" fill="#0C4BA0"/>
                   </svg></label>
-
               </div>
               <input class="form__radio" type="radio" name="donation-type" id="one-time" value="once-time">
               <div class="form__radio-cont support__radio-cont form__radio-cont_content_donation-type">
@@ -1092,21 +1107,21 @@
             </div>
               <h4 class="support__title">Размер пожертвования</h4>
               <div class="form__pos-cont">
-                <input class="form__radio" type="radio" name="supportMoneyAm" id="b250" value="250">
+                <input class="form__radio" type="radio" name="supportMoneyAm" id="250" value="250">
                 <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
-                  <label class="form__label" for="b250">250₽</label>
+                  <label class="form__label" for="250">250₽</label>
                 </div>
-                <input class="form__radio" type="radio" name="supportMoneyAm" id="b500" value="500">
+                <input class="form__radio" type="radio" name="supportMoneyAm" id="500" value="500">
                 <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
-                  <label class="form__label" for="b500">500₽</label>
+                  <label class="form__label" for="500">500₽</label>
                 </div>
-                <input class="form__radio" type="radio" name="supportMoneyAm" id="b750" value="750">
+                <input class="form__radio" type="radio" name="supportMoneyAm" id="750" value="750">
                 <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
-                  <label class="form__label" for="b750">750₽</label>
+                  <label class="form__label" for="750">750₽</label>
                 </div>
-                <input class="form__radio" type="radio" name="supportMoneyAm" id="b1000" value="1000">
+                <input class="form__radio" type="radio" name="supportMoneyAm" id="1000" value="1000">
                 <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
-                  <label class="form__label" for="b1000">1000₽</label>
+                  <label class="form__label" for="1000">1000₽</label>
                 </div>
               </div>
               <input class="form__radio" type="radio" name="supportMoneyAm" id="anotherSum" value="anotherSum">
@@ -1118,10 +1133,9 @@
             </p>
             <h4 class="support__title">Способ оплаты</h4>
             <div class="form__pos-cont form__pos-cont_paysis">
-              <input class="form__radio" type="radio" name="paySis" id="mirVisaMaster">
+              <input class="form__radio" type="radio" name="paySis" id="mirVisaMaster" value="250">
               <div class="form__radio-cont support__radio-cont form__radio-cont_content_paysis">
                 <label class="form__label" for="mirVisaMaster">
-
                   <svg class="support__svg" xmlns="http://www.w3.org/2000/svg" width="29" height="9" viewBox="0 0 29 9" fill="none">
                     <g clip-path="url(#clip0_1976_509)">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M25.2598 0.544189H20.0198C20.3015 2.29636 21.9918 3.93549 23.8512 3.93549H28.0207C28.077 3.76593 28.077 3.53984 28.077 3.37028C28.077 1.78767 26.8374 0.544189 25.2598 0.544189Z" fill="url(#paint0_linear_1976_509)"/>
@@ -1155,23 +1169,19 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.75 17.3622C19.2785 16.0781 20.25 14.1525 20.25 12.0001C20.25 9.84758 19.2785 7.92201 17.75 6.63794C16.2215 7.92201 15.25 9.84758 15.25 12.0001C15.25 14.1525 16.2215 16.0781 17.75 17.3622Z" fill="#FF5E00"/>
                   </svg>
                 </label>
-
               </div>
-              <input class="form__radio" type="radio" name="paySis" id="Union">
+              <input class="form__radio" type="radio" name="paySis" id="Union" value="250">
               <div class="form__radio-cont support__radio-cont form__radio-cont_content_paysis">
                 <label class="form__label" for="Union">
-
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
                     <path d="M13 0C9.10127 0 6 3.14557 6 7C6 10.8987 9.14558 14 13 14C16.8544 14 20 10.8544 20 7C20 3.14557 16.8544 0 13 0ZM13 9.61393C11.5823 9.61393 10.3861 8.41772 10.3861 7C10.3861 5.58228 11.5823 4.38607 13 4.38607C14.4177 4.38607 15.6139 5.58228 15.6139 7C15.5697 8.41772 14.4177 9.61393 13 9.61393Z" fill="#8B3FFD"/>
                     <path d="M6 2V12H3.375L0 2H6Z" fill="#8B3FFD"/>
                   </svg>
                 </label>
-
               </div>
-              <input class="form__radio" type="radio" name="paySis" id="webMoney">
+              <input class="form__radio" type="radio" name="paySis" id="webMoney" value="250">
               <div class="form__radio-cont support__radio-cont form__radio-cont_content_paysis">
                 <label class="form__label" for="webMoney">
-
                   <svg xmlns="http://www.w3.org/2000/svg" width="70" height="16" viewBox="0 0 70 16" fill="none">
                     <path d="M61.9619 0C63.2102 0 64.3978 0.290404 65.4636 0.809885C65.6307 0.886455 65.7989 0.978097 65.9655 1.06982L65.2348 1.72712L64.1393 0.58089L62.2516 2.26183L61.14 1.05435L57.6688 4.1874L59.8912 6.64791L59.0236 7.41185L61.2162 9.87236L60.3485 10.636L63.4849 14.1358L65.3411 12.424L66.9556 14.2584C66.6356 14.503 66.2855 14.748 65.9054 14.9616C64.7481 15.6187 63.4082 16 61.9773 16C57.5772 16 54.0001 12.4094 54.0001 7.99313C53.9845 3.60674 57.5623 0 61.9619 0ZM60.5002 7.50374L62.4033 5.79201L64.1087 7.70226L62.2053 9.41382L60.5002 7.50374ZM61.8555 10.8048L63.7431 9.07796L65.4636 10.9881L63.5604 12.6999L61.8555 10.8048ZM59.146 4.24873L61.0486 2.537L62.7536 4.44725L60.8505 6.1589L59.146 4.24873ZM62.6317 3.33149L64.0476 2.04784L65.3268 3.46916L63.9108 4.76798L62.6317 3.33149ZM65.1591 9.21522L66.5746 7.93149L67.8537 9.36765L66.4377 10.6522L65.1591 9.21522ZM66.4073 12.1039L67.8234 10.8199L69.1014 12.2412L67.6859 13.5398L66.4073 12.1039ZM66.986 5.5016L67.9297 4.6457L68.782 5.59356L67.8384 6.44915L66.986 5.5016ZM65.768 2.67435L66.7118 1.80344L67.5647 2.76607L66.6202 3.6219L65.768 2.67435ZM68.1885 8.32909L69.1323 7.47327L70 8.42081L69.0412 9.2764L68.1885 8.32909ZM63.9411 6.20477L65.3571 4.92103L66.6357 6.34204L65.2202 7.62601L63.9411 6.20477Z" fill="#0C4BA0"/>
                     <mask id="mask0_1976_462" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="8" height="7">
@@ -1189,18 +1199,16 @@
                     <path d="M47.8491 6H49L47.0535 10.9293C46.5151 12.29 45.8599 13 44.6235 13V12.192C45.3552 12.192 45.8061 11.6594 46.0648 10.9293L44 6H45.1831L46.5594 9.62833H46.6239L47.8491 6Z" fill="#0C4BA0"/>
                     </svg>
                 </label>
-                    </div>
-                    <svg class="support__svg support__svg_arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              </div>
+              <svg class="support__svg support__svg_arrow" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="#333333"/>
               </svg>
-
             </div>
             <h4 class="support__title">Ваши данные</h4>
-            <input class="form__text-inp form__text-inp_num" type="number" name="sum" min="100" placeholder="150₽" value="" step="10">
-            <input class="form__text-inp" type="text" name="name" value="" placeholder="Иван Иванов" required>
-            <input class="form__text-inp" type="email" name="email" value="" placeholder="myemail@example.com" required>
+            <input class="form__text-inp form__text-inp_num" type="number" name="sum" min="100" placeholder="150₽" value="" step="10" required>
+            <input class="form__text-inp" type="text" name="name" placeholder="Иван Иванов" required>
+            <input class="form__text-inp" type="email" name="email" placeholder="myemail@example.com" required>
             <label class="form__label_checkbox" for="policy">
-
               <input class="form__checkbox" type="checkbox" name="policy" id="policy" required>
               <span class="form__checkbox-pseudo">
                 <svg class="form__check" xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
@@ -1209,7 +1217,7 @@
               </span>
               <span>Соглашаюсь с <a class="support__link" href="#">офертой</a></span>
             </label>
-                <label class="form__label_checkbox" for="personalData">
+            <label class="form__label_checkbox" for="personalData">
               <input class="form__checkbox" type="checkbox" name="personalData" id="personalData" required>
               <span class="form__checkbox-pseudo">
                 <svg class="form__check" xmlns="http://www.w3.org/2000/svg" width="12" height="10" viewBox="0 0 12 10" fill="none">
@@ -1218,82 +1226,79 @@
               </span>
               <span class="support__checkbox-text">Соглашаюсь на <a class="support__link" href="#">обработку моих персональных данных</a></span>
             </label>
-
-            <button type="submit" for="formData" class="button form__subm-btn form__subm-btn_place_support">Поддержать</button>
+            <button class="button form__subm-btn_place_support">Поддержать</button>
           </form>
+        </div>
+        <div class="support__column">
+          <h4 class="support__title">Everland создается силами многих.&nbsp;Мы&nbsp;благодарны каждому&nbsp;за&nbsp;поддержку!</h4>
+          <div class="support__donut-history">
+            <div class="support__don-cont">
+              <p class="support__text">Аноним</p>
+              <p class="support__text support__dots">........................................</p>
+              <div class="support__moneytime">
+                <p class="support__text">500 ₽</p>
+                <p class="support__text">2 часа назад</p>
+              </div>
             </div>
-            <div class="support__column">
-                <h4 class="support__title">Everland создается силами многих.&nbsp;Мы&nbsp;благодарны каждому&nbsp;за&nbsp;поддержку!</h4>
-                <div class="support__donut-history">
-                    <div class="support__don-cont">
-                        <p class="support__text">Аноним</p>
-                        <p class="support__text support__dots">........................................</p>
-                        <div class="support__moneytime">
-                            <p class="support__text">500 ₽</p>
-                            <p class="support__text">2 часа назад</p>
-                        </div>
-                    </div>
-                    <div class="support__don-cont">
-                        <p class="support__text">Татьяна</p>
-                        <p class="support__text support__dots">........................................</p>
-                        <div class="support__moneytime">
-                            <p class="support__text">600 ₽</p>
-                            <p class="support__text">3 часа назад</p>
-                        </div>
-                    </div>
-                    <div class="support__don-cont">
-                        <p class="support__text">Аноним</p>
-                        <p class="support__text support__dots">........................................</p>
-                        <div class="support__moneytime">
-                            <p class="support__text">300 ₽</p>
-                            <p class="support__text">4 часа назад</p>
-                        </div>
-                    </div>
-                    <div class="support__don-cont">
-                        <p class="support__text">Аноним</p>
-                        <p class="support__text support__dots">........................................</p>
-                        <div class="support__moneytime">
-                            <p class="support__text">200 ₽</p>
-                            <p class="support__text">4 часа назад</p>
-                        </div>
-                    </div>
-                    <div class="support__don-cont">
-                        <p class="support__text">Аноним</p>
-                        <p class="support__text support__dots">........................................</p>
-                        <div class="support__moneytime">
-                            <p class="support__text">100 ₽</p>
-                            <p class="support__text">6 часов назад</p>
-                        </div>
-                    </div>
-                    <div class="support__don-cont">
-                        <p class="support__text">Наталья</p>
-                        <p class="support__text support__dots">........................................</p>
-                        <div class="support__moneytime">
-                            <p class="support__text">600 ₽</p>
-                            <p class="support__text">9 часов назад</p>
-                        </div>
-                    </div>
-                    <div class="support__don-cont">
-                        <p class="support__text">Наталья</p>
-                        <p class="support__text support__dots">........................................</p>
-                        <div class="support__moneytime">
-                            <p class="support__text">600 ₽</p>
-                            <p class="support__text">9 часов назад</p>
-                        </div>
-                    </div>
-                    <div class="support__don-cont">
-                        <p class="support__text">Наталья</p>
-                        <p class="support__text support__dots">........................................</p>
-                        <div class="support__moneytime">
-                            <p class="support__text">600 ₽</p>
-                            <p class="support__text">9 часов назад</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="support__don-cont">
+              <p class="support__text">Татьяна</p>
+              <p class="support__text support__dots">........................................</p>
+              <div class="support__moneytime">
+                <p class="support__text">600 ₽</p>
+                <p class="support__text">3 часа назад</p>
+              </div>
             </div>
+            <div class="support__don-cont">
+              <p class="support__text">Аноним</p>
+              <p class="support__text support__dots">........................................</p>
+              <div class="support__moneytime">
+                <p class="support__text">300 ₽</p>
+                <p class="support__text">4 часа назад</p>
+              </div>
+            </div>
+            <div class="support__don-cont">
+              <p class="support__text">Аноним</p>
+              <p class="support__text support__dots">........................................</p>
+              <div class="support__moneytime">
+                <p class="support__text">200 ₽</p>
+                <p class="support__text">4 часа назад</p>
+              </div>
+            </div>
+            <div class="support__don-cont">
+              <p class="support__text">Аноним</p>
+              <p class="support__text support__dots">........................................</p>
+              <div class="support__moneytime">
+                <p class="support__text">100 ₽</p>
+                <p class="support__text">6 часов назад</p>
+              </div>
+            </div>
+            <div class="support__don-cont">
+              <p class="support__text">Наталья</p>
+              <p class="support__text support__dots">........................................</p>
+              <div class="support__moneytime">
+                <p class="support__text">600 ₽</p>
+                <p class="support__text">9 часов назад</p>
+              </div>
+            </div>
+            <div class="support__don-cont">
+              <p class="support__text">Наталья</p>
+              <p class="support__text support__dots">........................................</p>
+              <div class="support__moneytime">
+                <p class="support__text">600 ₽</p>
+                <p class="support__text">9 часов назад</p>
+              </div>
+            </div>
+            <div class="support__don-cont">
+              <p class="support__text">Наталья</p>
+              <p class="support__text support__dots">........................................</p>
+              <div class="support__moneytime">
+                <p class="support__text">600 ₽</p>
+                <p class="support__text">9 часов назад</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
     </section>
 
   <footer class="footer">
@@ -1363,8 +1368,6 @@
       <p class="footer__text">сделано при участии Яндекс Практикума</p>
     </div>
   </footer>
-
     <script src="./scripts/index.js"></script>
-</body>
-
+  </body>
 </html>
