@@ -1,9 +1,20 @@
 .for-whom__subtitle {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 130%;
-    margin: 20px 0px 0px 0px;
-    padding: 0;
-    font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  font-family: "Raleway", "Arial", sans-serif;
+}
+@media screen and (max-width: 1439px) {
+  .for-whom__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .for-whom__subtitle {
+    font-size: 14px;
+  }
 }
