@@ -1,8 +1,0 @@
-.button_active {
-  background-color: #0C4BA0;
-  color: #FFF;
-}
-
-.button_active:not(:disabled) .button__icon_type_accordion {
-  transform: rotate(45deg);
-}

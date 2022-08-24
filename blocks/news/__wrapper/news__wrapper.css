@@ -1,6 +1,0 @@
-.news__wrapper{
-  display:grid;
-  grid-template-columns: repeat(auto-fit, 440px);
-  gap: 20px;
-  width: 100%;
-}
