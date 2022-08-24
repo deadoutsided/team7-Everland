@@ -2,11 +2,16 @@
   align-items: center;
   background-color: transparent;
   border: none;
+  cursor: pointer;
   display: flex;
   gap: 16px;
   margin: 0;
   padding: 0;
-  cursor: pointer;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.menu-button:hover {
+  opacity: 0.8;
 }
 
 .menu-button::before {
