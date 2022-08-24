@@ -1,0 +1,14 @@
+.news__wrapper{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(334px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 770px){
+  .news__wrapper{
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    justify-content: center;
+  }
+}

@@ -1,0 +1,19 @@
+.form__radio-cont_content_paysis{
+  width: 186px;
+}
+
+@media screen and (max-width: 1439px) {
+  .form__radio-cont_content_paysis{
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__radio-cont_content_paysis{
+    width: 260px;
+    margin: 0 0 16px;
+  }
+  .form__radio-cont_content_paysis:nth-of-type(3){
+    margin: 0 0 12px;
+  }
+}

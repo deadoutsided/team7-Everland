@@ -1,0 +1,21 @@
+.footer__about {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 483px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .footer__about {
+    max-width: 294px;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__about {
+    max-width: 300px;
+  }
+}

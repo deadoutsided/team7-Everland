@@ -1,0 +1,23 @@
+.support__paragraph{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333;
+  margin: 0;
+}
+
+@media screen and (max-width:1439px) {
+  .support__paragraph{
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__paragraph{
+    font-size: 12px;
+  }
+}

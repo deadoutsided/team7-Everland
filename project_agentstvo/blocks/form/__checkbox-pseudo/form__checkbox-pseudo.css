@@ -1,0 +1,18 @@
+.form__checkbox-pseudo{
+  width: 25px;
+  height: 25px;
+  background-color: #DADADA;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px 0 0;
+}
+
+.form__checkbox-pseudo > .form__check{
+  display: none;
+}
+
+.form__checkbox:checked + .form__checkbox-pseudo > .form__check{
+  display: block;
+}

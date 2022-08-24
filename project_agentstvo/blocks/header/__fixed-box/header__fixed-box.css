@@ -1,0 +1,19 @@
+.header__fixed-box {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  left: 0;
+  margin: 0;
+  max-width: 1440px;
+  padding: 0 40px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .header__fixed-box {
+    height: 54px;
+    padding: 0 10px;
+  }
+}

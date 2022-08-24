@@ -1,0 +1,20 @@
+.advantage-accordion__item {
+  border: 2px solid #dadada;
+  border-radius: 30px;
+  padding: 25px 20px 25px 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1180px) {
+  .advantage-accordion__item {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .advantage-accordion__item {
+    border-radius: 15px;
+    border: 1px solid #dadada;
+    padding: 16px 16px 16px 16px;
+  }
+}
