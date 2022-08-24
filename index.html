@@ -177,31 +177,63 @@
     </section>
 
     <section class="section">
-        <div class="section__content support-btns">
-            <form class="form">
-                <input class="form__radio" type="radio" name="moneyAmount" id="250top" value="250" />
-                <div class="form__radio-cont form__radio-cont_content_sum">
-                    <label class="form__label" for="250top">250₽</label>
-                </div>
-                <input class="form__radio" type="radio" name="moneyAmount" id="500top" value="500" />
-                <div class="form__radio-cont form__radio-cont_content_sum">
-                    <label class="form__label" for="500top">500₽</label>
-                </div>
-                <input class="form__radio" type="radio" name="moneyAmount" id="750top" value="750" />
-                <div class="form__radio-cont form__radio-cont_content_sum">
-                    <label class="form__label" for="750top">750₽</label>
-                </div>
-                <input class="form__radio" type="radio" name="moneyAmount" id="1000top" value="1000" />
-                <div class="form__radio-cont form__radio-cont_content_sum">
-                    <label class="form__label" for="1000top">1000₽</label>
-                </div>
-                <input class="form__radio" type="radio" name="moneyAmount" id="anotherSumTop" value="" />
-                <div class="form__radio-cont form__radio-cont_content_anoth-sum">
-                    <label class="form__label" for="anotherSumTop">Другая сумма</label>
-                </div>
-                <button class="button support-btns__subm-btn">Поддержать</button>
-            </form>
-        </div>
+
+      <div class="section__content support-btns">
+        <form class="form">
+          <input
+            class="form__radio"
+            type="radio"
+            name="moneyAmount"
+            id="top250"
+            value="250"
+          />
+          <div class="form__radio-cont form__radio-cont_content_sum">
+            <label class="form__label" for="top250">250₽</label>
+          </div>
+          <input
+            class="form__radio"
+            type="radio"
+            name="moneyAmount"
+            id="top500"
+            value="500"
+          />
+          <div class="form__radio-cont form__radio-cont_content_sum">
+            <label class="form__label" for="top500">500₽</label>
+          </div>
+          <input
+            class="form__radio"
+            type="radio"
+            name="moneyAmount"
+            id="top750"
+            value="750"
+          />
+          <div class="form__radio-cont form__radio-cont_content_sum">
+            <label class="form__label" for="top750">750₽</label>
+          </div>
+          <input
+            class="form__radio"
+            type="radio"
+            name="moneyAmount"
+            id="top1000"
+            value="1000"
+          />
+          <div class="form__radio-cont form__radio-cont_content_sum">
+            <label class="form__label" for="top1000">1000₽</label>
+          </div>
+          <input
+            class="form__radio"
+            type="radio"
+            name="moneyAmount"
+            id="anotherSumTop"
+            value=""
+          />
+          <div class="form__radio-cont form__radio-cont_content_anoth-sum">
+            <label class="form__label" for="anotherSumTop">Другая сумма</label>
+          </div>
+          <a class="button support-btns__subm-btn" href="#formData">Поддержать</a>
+        </form>
+      </div>
+
     </section>
 
     <section class="section for-whom">
@@ -973,10 +1005,9 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
 <section class="section news">
-  <div class='news__header'>
+  <div class="news__header">
     <h2 class="section__title">Новости</h2>
     <button class="button button_type_secondary news__button">Все новости</button>
   </div>
@@ -1003,8 +1034,8 @@
           </article>
     </div>
   </section>
-  
-  
+
+
     <section class="section section__background_light-blue">
       <div class="section__content">
         <h2 class="section__title support__title support__title_main">Поддержите нас</h2>
@@ -1017,43 +1048,45 @@
                 <label class="form__label" for="monthly">Ежемесячно <svg class="support__svg" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M5 10C7.76142 10 10 7.76142 10 5C10 2.23858 7.76142 0 5 0C2.23858 0 0 2.23858 0 5C0 7.76142 2.23858 10 5 10ZM3.00285 3.54791C2.9797 3.69528 3.10075 3.82002 3.25022 3.82002H3.25075H3.65969C3.79759 3.82002 3.90917 3.71107 3.94391 3.57739C4.06391 3.11791 4.43285 2.83949 4.96391 2.83949C5.57864 2.83949 5.97759 3.21791 5.97759 3.73318C5.97759 4.20318 5.78443 4.46791 5.24233 4.80055C4.62759 5.17476 4.35391 5.58528 4.37654 6.22791L4.37812 6.33318C4.37881 6.40251 4.40684 6.46877 4.45612 6.51756C4.50539 6.56634 4.57193 6.59371 4.64127 6.5937H5.04654C5.11633 6.5937 5.18327 6.56598 5.23262 6.51663C5.28197 6.46727 5.3097 6.40034 5.3097 6.33054V6.31476C5.3097 5.84528 5.47496 5.6037 6.05391 5.25686C6.64601 4.89633 6.99601 4.39949 6.99601 3.69212C6.99601 2.71581 6.19759 2.00002 5.01338 2.00002C3.82969 2.00002 3.14759 2.65265 3.00285 3.54791ZM5.41654 7.74212C5.41654 8.06633 5.16759 8.31581 4.84022 8.31581C4.52127 8.31581 4.26812 8.06633 4.26812 7.7416C4.26812 7.41686 4.52127 7.16739 4.84022 7.16739C5.16759 7.16739 5.41654 7.41686 5.41654 7.74212Z" fill="#0C4BA0"/>
                   </svg></label>
-                    </div>
-                    <input class="form__radio" type="radio" name="donation-type" id="one-time" value="once-time">
-                    <div class="form__radio-cont support__radio-cont form__radio-cont_content_donation-type">
-                        <label class="form__label" for="one-time">Разово</label>
-                    </div>
-                </div>
-                <h4 class="support__title">Размер пожертвования</h4>
-                <div class="form__pos-cont">
-                    <input class="form__radio" type="radio" name="supportMoneyAm" id="250" value="250">
-                    <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
-                        <label class="form__label" for="250">250₽</label>
-                    </div>
-                    <input class="form__radio" type="radio" name="supportMoneyAm" id="500" value="500">
-                    <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
-                        <label class="form__label" for="500">500₽</label>
-                    </div>
-                    <input class="form__radio" type="radio" name="supportMoneyAm" id="750" value="750">
-                    <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
-                        <label class="form__label" for="750">750₽</label>
-                    </div>
-                    <input class="form__radio" type="radio" name="supportMoneyAm" id="1000" value="1000">
-                    <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
-                        <label class="form__label" for="1000">1000₽</label>
-                    </div>
-                </div>
-                <input class="form__radio" type="radio" name="supportMoneyAm" id="anotherSum" value="anotherSum">
+
+              </div>
+              <input class="form__radio" type="radio" name="donation-type" id="one-time" value="once-time">
+              <div class="form__radio-cont support__radio-cont form__radio-cont_content_donation-type">
+                <label class="form__label" for="one-time">Разово</label>
+              </div>
+            </div>
+              <h4 class="support__title">Размер пожертвования</h4>
+              <div class="form__pos-cont">
+                <input class="form__radio" type="radio" name="supportMoneyAm" id="b250" value="250">
                 <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
-                    <label class="form__label" for="anotherSum">Другая сумма</label>
+                  <label class="form__label" for="b250">250₽</label>
                 </div>
-                <p class="support__paragraph">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу. Если вы захотите поддерживать
-                    наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.
-                </p>
-                <h4 class="support__title">Способ оплаты</h4>
-                <div class="form__pos-cont form__pos-cont_paysis">
-                    <input class="form__radio" type="radio" name="paySis" id="mirVisaMaster" value="250">
-                    <div class="form__radio-cont support__radio-cont form__radio-cont_content_paysis">
-                        <label class="form__label" for="mirVisaMaster">
+                <input class="form__radio" type="radio" name="supportMoneyAm" id="b500" value="500">
+                <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
+                  <label class="form__label" for="b500">500₽</label>
+                </div>
+                <input class="form__radio" type="radio" name="supportMoneyAm" id="b750" value="750">
+                <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
+                  <label class="form__label" for="b750">750₽</label>
+                </div>
+                <input class="form__radio" type="radio" name="supportMoneyAm" id="b1000" value="1000">
+                <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
+                  <label class="form__label" for="b1000">1000₽</label>
+                </div>
+              </div>
+              <input class="form__radio" type="radio" name="supportMoneyAm" id="anotherSum" value="anotherSum">
+              <div class="form__radio-cont support__radio-cont form__radio-cont_content_sum">
+                <label class="form__label" for="anotherSum">Другая сумма</label>
+              </div>
+            <p class="support__paragraph">Регулярные пожертвования очень важны для Everland. Это то, что помогает нашим программам работать бесперебойно, что открывает новые востребованные проекты, что максимально эффективно решает социальную задачу.
+              Если вы захотите поддерживать наши программы постоянно, то каждый месяц с вашей карты будет списываться указанная вами сумма.
+            </p>
+            <h4 class="support__title">Способ оплаты</h4>
+            <div class="form__pos-cont form__pos-cont_paysis">
+              <input class="form__radio" type="radio" name="paySis" id="mirVisaMaster">
+              <div class="form__radio-cont support__radio-cont form__radio-cont_content_paysis">
+                <label class="form__label" for="mirVisaMaster">
+
                   <svg class="support__svg" xmlns="http://www.w3.org/2000/svg" width="29" height="9" viewBox="0 0 29 9" fill="none">
                     <g clip-path="url(#clip0_1976_509)">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M25.2598 0.544189H20.0198C20.3015 2.29636 21.9918 3.93549 23.8512 3.93549H28.0207C28.077 3.76593 28.077 3.53984 28.077 3.37028C28.077 1.78767 26.8374 0.544189 25.2598 0.544189Z" fill="url(#paint0_linear_1976_509)"/>
@@ -1087,19 +1120,23 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M17.75 17.3622C19.2785 16.0781 20.25 14.1525 20.25 12.0001C20.25 9.84758 19.2785 7.92201 17.75 6.63794C16.2215 7.92201 15.25 9.84758 15.25 12.0001C15.25 14.1525 16.2215 16.0781 17.75 17.3622Z" fill="#FF5E00"/>
                   </svg>
                 </label>
-                    </div>
-                    <input class="form__radio" type="radio" name="paySis" id="Union" value="250">
-                    <div class="form__radio-cont support__radio-cont form__radio-cont_content_paysis">
-                        <label class="form__label" for="Union">
+
+              </div>
+              <input class="form__radio" type="radio" name="paySis" id="Union">
+              <div class="form__radio-cont support__radio-cont form__radio-cont_content_paysis">
+                <label class="form__label" for="Union">
+
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
                     <path d="M13 0C9.10127 0 6 3.14557 6 7C6 10.8987 9.14558 14 13 14C16.8544 14 20 10.8544 20 7C20 3.14557 16.8544 0 13 0ZM13 9.61393C11.5823 9.61393 10.3861 8.41772 10.3861 7C10.3861 5.58228 11.5823 4.38607 13 4.38607C14.4177 4.38607 15.6139 5.58228 15.6139 7C15.5697 8.41772 14.4177 9.61393 13 9.61393Z" fill="#8B3FFD"/>
                     <path d="M6 2V12H3.375L0 2H6Z" fill="#8B3FFD"/>
                   </svg>
                 </label>
-                    </div>
-                    <input class="form__radio" type="radio" name="paySis" id="webMoney" value="250">
-                    <div class="form__radio-cont support__radio-cont form__radio-cont_content_paysis">
-                        <label class="form__label" for="webMoney">
+
+              </div>
+              <input class="form__radio" type="radio" name="paySis" id="webMoney">
+              <div class="form__radio-cont support__radio-cont form__radio-cont_content_paysis">
+                <label class="form__label" for="webMoney">
+
                   <svg xmlns="http://www.w3.org/2000/svg" width="70" height="16" viewBox="0 0 70 16" fill="none">
                     <path d="M61.9619 0C63.2102 0 64.3978 0.290404 65.4636 0.809885C65.6307 0.886455 65.7989 0.978097 65.9655 1.06982L65.2348 1.72712L64.1393 0.58089L62.2516 2.26183L61.14 1.05435L57.6688 4.1874L59.8912 6.64791L59.0236 7.41185L61.2162 9.87236L60.3485 10.636L63.4849 14.1358L65.3411 12.424L66.9556 14.2584C66.6356 14.503 66.2855 14.748 65.9054 14.9616C64.7481 15.6187 63.4082 16 61.9773 16C57.5772 16 54.0001 12.4094 54.0001 7.99313C53.9845 3.60674 57.5623 0 61.9619 0ZM60.5002 7.50374L62.4033 5.79201L64.1087 7.70226L62.2053 9.41382L60.5002 7.50374ZM61.8555 10.8048L63.7431 9.07796L65.4636 10.9881L63.5604 12.6999L61.8555 10.8048ZM59.146 4.24873L61.0486 2.537L62.7536 4.44725L60.8505 6.1589L59.146 4.24873ZM62.6317 3.33149L64.0476 2.04784L65.3268 3.46916L63.9108 4.76798L62.6317 3.33149ZM65.1591 9.21522L66.5746 7.93149L67.8537 9.36765L66.4377 10.6522L65.1591 9.21522ZM66.4073 12.1039L67.8234 10.8199L69.1014 12.2412L67.6859 13.5398L66.4073 12.1039ZM66.986 5.5016L67.9297 4.6457L68.782 5.59356L67.8384 6.44915L66.986 5.5016ZM65.768 2.67435L66.7118 1.80344L67.5647 2.76607L66.6202 3.6219L65.768 2.67435ZM68.1885 8.32909L69.1323 7.47327L70 8.42081L69.0412 9.2764L68.1885 8.32909ZM63.9411 6.20477L65.3571 4.92103L66.6357 6.34204L65.2202 7.62601L63.9411 6.20477Z" fill="#0C4BA0"/>
                     <mask id="mask0_1976_462" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="4" width="8" height="7">
