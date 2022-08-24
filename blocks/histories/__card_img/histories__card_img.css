@@ -12,3 +12,11 @@
     margin: 20px 16px 20px 20px;
   }
 }
+
+@media screen and (max-width: 470px) {
+  .histories__card_img {
+    max-width: 114px;
+    max-height: 114px;
+    margin: 14px 10px 14px 14px;
+  }
+}
