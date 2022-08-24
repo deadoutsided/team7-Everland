@@ -165,10 +165,12 @@
 @import url(../blocks/form/__pos-cont/_paysis/form__pos-cont_paysis.css);
 @import url(../blocks/support/__link/support__link.css);
 @import url(../blocks/form/__subm-btn/_place/_support/form__subm-btn_place_support.css);
+@import url(../blocks/form/__text-inp/_display/form__text-inp_display.css);
 @import url(../blocks/support/__don-cont/support__don-cont.css);
 @import url(../blocks/support/__moneytime/support__moneytime.css);
 @import url(../blocks/support/__text/support__text.css);
 @import url(../blocks/support/__dots/support__dots.css);
+@import url(../blocks/support/__title/_main/support__title_main.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);

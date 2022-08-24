@@ -26,6 +26,15 @@ const specProjBaseImg = "special-proj__img ";
 const socProjBaseBgs = "soc-proj__column ";
 let socProjSliderCounter = 0;
 let specProjSliderCounter = 0;
+const supportSubmBtn = document.querySelector(".form__subm-btn_place_support");
+const formData = document.querySelector(".form_data");
+
+function handleFormSubmit(evt){
+  evt.preventDefault();
+  formData.reset();
+}
+
+formData.addEventListener("submit", handleFormSubmit);
 
 const socProjFill = [
   {
