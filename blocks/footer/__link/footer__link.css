@@ -8,6 +8,11 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width:1439px) {
