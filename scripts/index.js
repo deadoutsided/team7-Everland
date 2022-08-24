@@ -1,6 +1,8 @@
-const menu = document.querySelector(".menu");
+const header = document.querySelector("header");
+const menu = header.querySelector(".menu");
 const menuButton = document.querySelector(".menu-button");
 const menuAccordions = document.querySelectorAll(".menu__accordion");
+const navigationPanel = header.querySelector(".navigation");
 const newsItem = document.querySelectorAll(".news__item");
 
   //Перекрашивание карточки новости в зависимости от наличия картинки в ней
@@ -184,7 +186,12 @@ const closeMenuAccordion = (menuAccordion) => {
   menuAccordion.classList.remove("menu__accordion_active");
   accordionTitle.classList.remove("menu__title_active");
 };
-
+const showNavigationPanel = () => {
+  navigationPanel.classList.add("navigation_opened");
+};
+const hideNavigationPanel = () => {
+  navigationPanel.classList.remove("navigation_opened");
+};
 menuButton.addEventListener("click", () => {
   menuButton.classList.contains("menu-button_active")
     ? closeMenu()
@@ -199,4 +206,10 @@ menuAccordions.forEach((accordion) => {
       ? closeMenuAccordion(accordion)
       : openMenuAccordion(accordion);
   });
+});
+menuButton.addEventListener("mouseover", () => {
+  showNavigationPanel();
+});
+navigationPanel.addEventListener("mouseout", () => {
+  hideNavigationPanel();
 });
