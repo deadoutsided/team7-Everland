@@ -1,0 +1,14 @@
+.header__logo {
+  display: flex;
+  height: 30px;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1439px) {
+  .header__logo {
+    height: 24px;
+  }
+}

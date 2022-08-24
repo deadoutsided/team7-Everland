@@ -1,0 +1,10 @@
+.projects__title_max {
+    display: block;
+}
+
+@media (max-width:1023px) {
+.projects__title_max {
+    display: none;
+}
+}
+

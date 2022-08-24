@@ -1,0 +1,20 @@
+.advantage-accordion__subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+@media screen and (max-width: 1180px) {
+  .advantage-accordion__subtitle {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .advantage-accordion__subtitle {
+    font-size: 18px;
+  }
+}

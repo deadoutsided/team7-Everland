@@ -1,0 +1,26 @@
+.soc-proj__paragraph{
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  max-width: 543px;
+  margin: 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .soc-proj__paragraph{
+    font-size: 16px;
+    line-height: 120%;
+    max-width: 424px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .soc-proj__paragraph{
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
