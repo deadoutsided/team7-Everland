@@ -1,0 +1,19 @@
+.histories__image {
+  border-radius: 50%;
+  max-width: 224px;
+  max-height: 224px;
+  align-self: center;
+}
+
+@media screen and (max-width: 1080px) {
+  .histories__image {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .histories__image {
+    max-width: 157px;
+  }
+}

@@ -1,0 +1,8 @@
+.section__content {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 100%;
+}

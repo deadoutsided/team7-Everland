@@ -8,3 +8,24 @@
     max-width: 853px;
     line-height: 77px;
 }
+
+@media (max-width:1023px) {
+.projects__title {
+    font-size: 36px;
+    line-height: 43px;
+    padding-top: 50px;
+    max-width: 394px;
+
+}
+}
+
+@media (max-width:767px) {
+.projects__title {
+    font-size: 26px;
+    line-height: 31px;
+    padding-top: 32px;
+    max-width: 301px;
+    margin: 0 10px 0;
+
+}
+}

@@ -1,0 +1,39 @@
+.form__label_checkbox{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #333333;
+  display: flex;
+  margin: 0 0 23px 0;
+}
+
+.form__label_checkbox:first-of-type{
+  margin: 0px 0 18px 0;
+}
+
+@media screen and (max-width:1439px) {
+  .form__label_checkbox{
+    font-size: 12px;
+    line-height: 120%;
+    align-items: center;
+    margin: 0 0 24px;
+  }
+  .form__label_checkbox:first-of-type{
+    margin: 0 0 18px;
+  }
+}
+
+@media screen and (max-width:1439px) {
+  .form__label_checkbox{
+    font-size: 12px;
+    line-height: 120%;
+    align-items: center;
+    margin: 0 0 24px;
+  }
+  .form__label_checkbox:first-of-type{
+    margin: 0 0 18px;
+  }
+}

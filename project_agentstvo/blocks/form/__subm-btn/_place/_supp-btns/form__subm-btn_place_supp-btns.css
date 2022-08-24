@@ -1,0 +1,11 @@
+.form__subm-btn_place_supp-btns{
+  padding: 12px 29px;
+  width: 179px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width:1439px) {
+  .form__subm-btn_place_supp-btns{
+    width: 143px;
+  }
+}

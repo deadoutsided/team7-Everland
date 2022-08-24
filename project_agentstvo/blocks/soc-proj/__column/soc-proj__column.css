@@ -1,0 +1,29 @@
+.soc-proj__column{
+  display: flex;
+  flex-direction: column;
+  /*min-height: 565px;*/
+}
+
+.soc-proj__column:last-of-type{
+  min-width: 520px;
+  min-height: 565px;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom left, top right;
+}
+
+@media screen and (max-width:1439px) {
+  .soc-proj__column:last-of-type{
+    min-width: 244px;
+    min-height: 286px;
+    margin: 0;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .soc-proj__column:last-of-type{
+    min-width: 300px;
+    min-height: 200px;
+    margin: 26px 0 0 0;
+  }
+}

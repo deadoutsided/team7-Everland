@@ -1,0 +1,20 @@
+.footer__fond {
+  aspect-ratio: 100/48;
+  background-image: url(../../../images/logo-fond.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 48px;
+}
+
+@media screen and (max-width:1439px) {
+  .footer__fond {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .footer__fond {
+    height: 25px;
+  }
+}

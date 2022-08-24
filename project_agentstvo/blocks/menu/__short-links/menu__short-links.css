@@ -1,0 +1,26 @@
+.menu__short-links {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media screen and (max-width: 1439px) {
+  .menu__short-links {
+    column-gap: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: calc(186px + 50px) calc(217px + 21px) 196px;
+    grid-template-rows: 24px 24px;
+    justify-content: center;
+    row-gap: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu__short-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
