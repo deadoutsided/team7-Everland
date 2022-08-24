@@ -17,3 +17,9 @@
     bottom: 0;
   }
 }
+
+@media screen and (max-width: 470px) {
+  .histories__button {
+    width: 300px;
+  }
+}

@@ -13,3 +13,9 @@
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 470px) {
+  .histories__card-link_name {
+    font-size: 12px;
+  }
+}
