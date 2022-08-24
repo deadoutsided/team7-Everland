@@ -4,12 +4,12 @@
 
 @media screen and (max-width: 780px){
   .news{
-  padding:  0 40px 132px;
+  padding:  50px 40px 132px;
 }
 }
 
 @media screen and (max-width: 325px){
   .news{
-  padding:  0 10px 108px;
+  padding:  50px 10px 108px;
 }
 }

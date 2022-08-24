@@ -6,7 +6,7 @@
 }
 
 
-@media screen and (max-width: 707px){
+@media screen and (max-width: 770px){
   .news__wrapper{
     grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
     justify-content: center;
