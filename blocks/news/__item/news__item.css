@@ -8,3 +8,15 @@
   box-sizing: border-box;
   color: #333333;
 }
+
+@media screen and (max-width: 780px) and (min-width: 380px){
+  .news__item:nth-child(n+3){
+  display: none;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .news__item{
+  padding: 24px;
+  }
+}
