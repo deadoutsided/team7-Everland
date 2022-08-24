@@ -1,0 +1,7 @@
+.for-whom__element {
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

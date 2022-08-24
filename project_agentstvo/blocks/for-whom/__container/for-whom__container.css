@@ -1,0 +1,6 @@
+.for-whom__container {
+    display: grid;
+    grid-template: minmax(428px, 1fr) / repeat(3, minmax(428px, 1fr));
+    column-gap: 20px;
+    margin-top: 50px;
+}
