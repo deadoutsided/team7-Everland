@@ -4,3 +4,11 @@
   max-height: 224px;
   margin: 30px 20px 30px 30px;
 }
+
+@media screen and (max-width: 1080px) {
+  .histories__card_img {
+    max-width: 120px;
+    max-height: 120px;
+    margin: 20px 16px 20px 20px;
+  }
+}

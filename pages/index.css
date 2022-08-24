@@ -165,7 +165,6 @@
 @import url(../blocks/form/__pos-cont/_paysis/form__pos-cont_paysis.css);
 @import url(../blocks/support/__link/support__link.css);
 @import url(../blocks/form/__subm-btn/_place/_support/form__subm-btn_place_support.css);
-@import url(../blocks/support/__don-name/support__don-name.css);
 @import url(../blocks/support/__don-cont/support__don-cont.css);
 @import url(../blocks/support/__moneytime/support__moneytime.css);
 @import url(../blocks/support/__text/support__text.css);
@@ -228,4 +227,4 @@
 @import url('../blocks/histories/__card-content/histories__card-content.css');
 @import url('../blocks/histories/__card-link/histories__card-link.css');
 @import url('../blocks/histories/__block-cards/histories__block-cards.css');
-
+@import url('../blocks/histories/__title/_quote/_quote-padding/histories__title_quote-padding.css');

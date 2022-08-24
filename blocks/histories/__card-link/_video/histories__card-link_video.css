@@ -7,3 +7,10 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 1080px) {
+  .histories__card-link_video {
+    width: 28px;
+    height: 28px;
+  }
+}

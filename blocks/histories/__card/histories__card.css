@@ -13,3 +13,12 @@
   margin-right: 0;
 }
 
+@media screen and (max-width: 880px) {
+  .histories__card {
+    margin: 0;
+    margin-bottom: 16px;
+  }
+  .histories__card:last-child {
+    margin-bottom: 0;
+  }
+}

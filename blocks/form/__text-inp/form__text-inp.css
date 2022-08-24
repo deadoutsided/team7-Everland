@@ -31,6 +31,10 @@
 }
 
 @media screen and (max-width:1439px) {
+  .form__text-inp{
+    font-size: 14px;
+    line-height: 120%;
+  }
   .form__text-inp[type="text"]{
     margin: 0 0 16px;
   }
