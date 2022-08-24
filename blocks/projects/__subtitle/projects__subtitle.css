@@ -2,7 +2,6 @@
     font-size: 34px;
     font-weight: 700;
     margin-top: 20px;
-    margin-left: 40px;
     margin-bottom: 0;
     max-width: 955px;
     line-height: 41px;
@@ -22,7 +21,7 @@
 .projects__subtitle {
     font-size: 17px;
     line-height: 19px;
-    margin: 10px auto 0 10px;
+    margin: 10px 0 0;
     max-width: 300px;
 
 }
