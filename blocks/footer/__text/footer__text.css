@@ -7,6 +7,7 @@
   line-height: 120%;
   margin: 0;
   padding: 0;
+  font-variant-numeric: lining-nums;
 }
 
 @media screen and (max-width: 1439px) {
