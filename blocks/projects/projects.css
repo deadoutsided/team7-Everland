@@ -1,0 +1,16 @@
+.projects {
+    font-family: 'Raleway', Arial, sans-serif;
+    background-color: #F5F5F5;
+}
+
+@media screen and (max-width: 1080px){
+   .projects {
+    margin-top:50px;
+} 
+}
+
+@media screen and (max-width: 760px){
+   .projects {
+    margin-top:32px;
+} 
+}

@@ -2,5 +2,6 @@
   .support__svg_arrow{
     transform: rotate(90deg);
     padding: 0;
+    cursor: pointer;
   }
 }

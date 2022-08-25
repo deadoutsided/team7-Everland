@@ -7,7 +7,6 @@
 <title>Everland</title>
 <link rel="stylesheet" href="./pages/index.css" />
 </head>
-
 <body class="page">
     <header class="header">
         <div class="header__fixed-box">
@@ -125,8 +124,7 @@
         </ul>
       </nav>
     </header>
-
-
+    <main class="main">
     <section class="section section_block_soc-proj">
         <div class="section__content soc-proj">
             <div class="soc-proj__column">
@@ -875,7 +873,7 @@
           <div class="histories__details histories__details_position">
             <img
               src="./images/histories/history__icon_quote.svg"
-              class="histories__title_quote"
+              class="histories__title_quote" alt="Иконка"
             />
             <h3 class="histories__title histories_margin">
               Мне интересно слушать интервью с людьми. Это мотивация и
@@ -1013,6 +1011,32 @@
         </div>
       </div>
   </section>
+  <section class="section projects">
+    <div class="projects__wrapper">
+      <h2 class="section__title">Лучшие проекты агенства</h2>
+      <p class="projects__subtitle">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и контента</p>
+      <div class="projects__cards">
+        <div class="projects__cards__item">
+      <img class="projects__cards__image" src="../team7-Everland/images/Image_5.svg" alt="Макет сайта">
+      <p class="projects__cards__name">Скрипты-рекомендации для бизнеса (DisQuestion)
+      </p>
+    </div>
+    <div class="projects__cards__item">
+      <img class="projects__cards__image" src="../team7-Everland/images/Image_6.svg" alt="Ноутбук и тулефон">
+      <p class="projects__cards__name">
+        Проект «Онконавигатор»</p>
+    </div>
+    <div class="projects__cards__item">
+      <img class="projects__cards__image" src="../team7-Everland/images/Image_7.svg" alt="Макет сайта на экране телефона">
+      <p class="projects__cards__name">Проект «Миграции: приоткрывая личное»
+      </p>
+    </div>
+  </div>
+  <div class="projects__info">
+    <button class="button button button_type_secondary projects__info__button">Посмотреть всё</button>
+    </div>
+  </div>
+</section>
 <section class="section news">
   <div class="news__header">
     <h2 class="section__title">Новости</h2>
@@ -1041,8 +1065,6 @@
           </article>
     </div>
   </section>
-
-
     <section class="section section__background_light-blue">
       <div class="section__content">
         <h2 class="section__title support__title support__title_main">Поддержите нас</h2>
@@ -1103,7 +1125,7 @@
                     </g>
                     <defs>
                     <linearGradient id="paint0_linear_1976_509" x1="20.0052" y1="2.23984" x2="28.077" y2="2.23984" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#00B4E6"/>
+                    <stop stop-color="#00B4E6" offset="100%"/>
                     <stop offset="1" stop-color="#088CCB"/>
                     </linearGradient>
                     <clipPath id="clip0_1976_509">
@@ -1191,7 +1213,7 @@
               <span class="support__checkbox-text">Соглашаюсь на <a class="support__link" href="#">обработку моих персональных данных</a></span>
             </label>
 
-            <button type="submit" for="formData" class="button form__subm-btn form__subm-btn_place_support">Поддержать</button>
+            <button type="submit" class="button form__subm-btn form__subm-btn_place_support">Поддержать</button>
           </form>
             </div>
             <div class="support__column">
@@ -1265,9 +1287,8 @@
             </div>
         </div>
       </div>
-    </div>
     </section>
-
+  </main>
   <footer class="footer">
     <div class="footer__container">
       <div class="footer__inner-resources">
