@@ -1,9 +1,0 @@
-.projects__wrapper{
-  max-width: 1440px;
-}
-
-@media screen nd (max-width: 760px){
-  .projects__wrapper{
-
-}
-}
