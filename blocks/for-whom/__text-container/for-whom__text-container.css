@@ -1,3 +1,14 @@
 .for-whom__text-container {
-    margin: 40px 0px 36px 30px;
+  margin: 40px 0px 36px 30px;
+}
+@media screen and (max-width: 1439px) {
+  .for-whom__text-container {
+    margin: 20px 0px 34px 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .for-whom__text-container {
+    margin: 20px 0px 45px 24px;
+  }
 }

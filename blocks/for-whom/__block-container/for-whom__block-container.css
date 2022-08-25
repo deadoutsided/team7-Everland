@@ -1,0 +1,4 @@
+.for-whom__block-container {
+    display: flex;
+    flex-direction: column;
+}
