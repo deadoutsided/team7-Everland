@@ -4,6 +4,7 @@
   order: 4;
   position: relative;
   top: -35px;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 1439px) {
@@ -15,6 +16,7 @@
 @media screen and (max-width: 767px) {
   .soc-proj__slider{
     position: static;
+    align-self: center;
     margin-top: 16px;
   }
 }

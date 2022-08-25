@@ -1,0 +1,16 @@
+.section_block_soc-proj{
+  gap: 0;
+  padding: 100px 40px 15px;
+}
+
+@media screen and (max-width: 1439px) {
+  .section_block_soc-proj{
+    padding: 56px 40px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section_block_soc-proj{
+    padding: 50px 10px 0;
+  }
+}
