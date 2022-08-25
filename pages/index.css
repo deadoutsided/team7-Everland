@@ -31,6 +31,7 @@
 @import url(../blocks/navigation/__links/navigation__links.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
 @import url(../blocks/navigation/__text/navigation__text.css);
+@import url(../blocks/section/_block/_soc-proj/section_block_soc-proj.css);
 @import url(../blocks/soc-proj/soc-proj.css);
 @import url(../blocks/soc-proj/__column/soc-proj__column.css);
 @import url(../blocks/soc-proj/__title/soc-proj__title.css);

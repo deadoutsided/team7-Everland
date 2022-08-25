@@ -1,3 +1,9 @@
 .section_block_support-btns{
   padding: 40px 40px 50px;
 }
+
+@media screen and (max-width:1439px) {
+  .section_block_support-btns{
+    padding: 26px 40px 50px;
+  }
+}
