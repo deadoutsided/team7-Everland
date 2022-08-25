@@ -97,6 +97,18 @@
 @import url(../blocks/directions/__element/_color/directions__element_color_blue.css);
 @import url(../blocks/directions/__element/_color/directions__element_color_green.css);
 @import url(../blocks/special-proj/special-proj.css);
+
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__subtitle/projects__subtitle.css);
+@import url(../blocks/projects/__cards/projects__cards.css);
+@import url(../blocks/projects/__cards/__item/projects__cards__item.css);
+@import url(../blocks/projects/__cards/__image/project__cards__image.css);
+@import url(../blocks/projects/__cards/__name/projects__cards__name.css);
+@import url(../blocks/projects/__info/projects__info.css);
+@import url(../blocks/projects/__info/__button/projects__info__button.css);
+@import url(../blocks/projects/__wrapper/projects__wrapper.css);
+
 @import url("../blocks/news/news.css");
 @import url("../blocks/news/__item/news__item.css");
 @import url("../blocks/news/__picture/news__picture.css");
